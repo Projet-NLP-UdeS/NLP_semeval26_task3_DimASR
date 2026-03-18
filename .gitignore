@@ -1,0 +1,51 @@
+# =========================
+# Python / Environnements
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# =========================
+# Jupyter Notebook / Colab
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Modèles / Poids PyTorch & HuggingFace
+# =========================
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.msgpack
+# Dossiers par défaut générés par HuggingFace Trainer
+outputs/
+results/
+runs/
+wandb/
+
+# =========================
+# Données / Datasets
+# =========================
+*.csv
+*.tsv
+*.xlsx
+data/
+datasets/
+
+# =========================
+# Fichiers de prédiction
+# =========================
+*.jsonl 
+
+# =========================
+# OS générés (Mac / Windows)
+# =========================
+.DS_Store
+Thumbs.db
