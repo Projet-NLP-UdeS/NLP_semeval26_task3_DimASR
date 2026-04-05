@@ -1,0 +1,15 @@
+name: ift714-projet
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - ipykernel
+  - pyyaml
+  - numpy
+  - pandas
+  - pytorch
+  - scipy
+  - transformers
+  - scikit-learn
+  - requests
+  - ipywidgets

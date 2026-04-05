@@ -1,5 +1,14 @@
+"""
+Load JSONL to Dataframe and format as VA Dataset.
+"""
 import json
+from typing import List, Dict
+import requests
+
+import torch
+from torch.utils.data import Dataset
 import pandas as pd
+
 
 def load_jsonl(filepath: str) -> List[Dict]:
     with open(filepath, "r", encoding="utf-8") as f:
@@ -39,3 +48,45 @@ def jsonl_to_df(data):
         raise ValueError("Invalid format: must include 'Quadruplet' or 'Triplet' or 'Aspect'")
 
     return df
+
+class VADataset(Dataset):
+    '''
+    A PyTorch Dataset for Valence–Arousal regression.
+
+    - Combines aspect and text into a single input (e.g., "keyboard: The keyboard is good").
+    - Tokenizes the input using a HuggingFace tokenizer.
+    - Returns:
+        * input_ids: token IDs, shape [max_len]
+        * attention_mask: mask, shape [max_len]
+        * labels: [Valence, Arousal], shape [2], float tensor
+
+    Args:
+        dataframe (pd.DataFrame): must contain "Text", "Aspect", "Valence", "Arousal".
+        tokenizer: HuggingFace tokenizer.
+        max_len (int): max sequence length.
+    '''
+    def __init__(self, dataframe, tokenizer, max_len=128):
+        self.sentences = dataframe["Text"].tolist()
+        self.aspects = dataframe["Aspect"].tolist()
+        self.labels = dataframe[["Valence", "Arousal"]].values.astype(float)
+        self.tokenizer = tokenizer
+        self.max_len = max_len
+
+    def __len__(self):
+        return len(self.sentences)
+
+    def __getitem__(self, idx):
+        text = f"{self.aspects[idx]}: {self.sentences[idx]}"
+        encoded = self.tokenizer(
+            text, 
+            truncation=True, 
+            padding="max_length", 
+            max_length=self.max_len, 
+            return_tensors="pt"
+            # returns torch one batch tensor
+        )
+        return { # squeeze out superfluous batch dimension
+            "input_ids": encoded["input_ids"].squeeze(0), 
+            "attention_mask": encoded["attention_mask"].squeeze(0),
+            "labels": torch.tensor(self.labels[idx], dtype=torch.float)
+        }
