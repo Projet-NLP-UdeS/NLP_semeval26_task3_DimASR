@@ -25,7 +25,7 @@ env/
 *.h5
 *.msgpack
 # Dossiers par défaut générés par HuggingFace Trainer
-outputs/
+# outputs/
 results/
 runs/
 wandb/
@@ -33,16 +33,16 @@ wandb/
 # =========================
 # Données / Datasets
 # =========================
-*.csv
-*.tsv
-*.xlsx
-data/
-datasets/
+# *.csv
+# *.tsv
+# *.xlsx
+# data/
+# datasets/
 
 # =========================
 # Fichiers de prédiction
 # =========================
-*.jsonl 
+# *.jsonl 
 
 # =========================
 # OS générés (Mac / Windows)
