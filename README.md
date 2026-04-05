@@ -14,8 +14,8 @@
 1. Code from IDE as usual
 2. Push progress to GitHub repo
 3. In Collab, open notebook (Ctrl+O) from GitHub :
-    - Use `collab_outputs` branch to push results
-    - Use https://github.com/Tino-Rg/NLP_semeval26_task3_DimASR/blob/collab_outputs/main.ipynb
+    - Use `colab_outputs` branch to push results
+    - Use https://github.com/Tino-Rg/NLP_semeval26_task3_DimASR/blob/colab_outputs/main.ipynb
 4. Save (Ctrl+S) to commit outputs
 
 
