@@ -11,6 +11,13 @@
 
 ### Using Google Collab as a Github runtime
 
+Try the new [Google Colab extension](https://marketplace.visualstudio.com/items?itemName=Google.colab) for Visual Studio Code. You can get up and running in just a few clicks:
+
+*  In VS Code, open the ***Extensions*** view and search for 'Google Colab' to install.
+*  Open the kernel selector by creating or opening any `.ipynb` notebook file in your local workspace and either running a cell or clicking the ***Select Kernel*** button in the top right.
+*  Click ***Colab*** and then select your desired runtime, sign in with your Google account, and you're all set!
+
+Or manually, follow these steps :
 1. Code from IDE as usual
 2. Push progress to GitHub repo
 3. In Collab, open notebook (Ctrl+O) from GitHub :
@@ -31,8 +38,7 @@ development.
 - Updating : `conda export --from-history --format=environment-yaml > environment.yaml`
 (then manually remove `prefix` value and add `pip` specific packages in the required format)
 
-Note : Using Python 3.13 might be [unstable](https://www.python.org/downloads/), switch to 3.12? 
-(probably unecessary)
+Note : Using Python 3.13 might be [unstable](https://www.python.org/downloads/), switch to 3.12? (probably unecessary)
 
 ### Running quick tests
 

@@ -27,7 +27,7 @@ env/
 *.msgpack
 # Dossiers par défaut générés par HuggingFace Trainer
 # outputs/
-results/
+# results/
 runs/
 wandb/
 
