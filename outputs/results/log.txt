@@ -6,3 +6,62 @@
 
 [2026-04-10 20:25:33] RÉCAPITULATIF DES RÉSULTATS
 - SVR_Baseline : PCC_V = 0.6148 | PCC_A = 0.0990 | RMSE_V = 2.2058 | RMSE_A = 1.0014
+
+[2026-04-11 13:50:54] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.5606 | PCC_A = 0.0758 | RMSE_V = 6.1488 | RMSE_A = 6.6778
+
+[2026-04-11 13:56:37] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.5549 | PCC_A = -0.1039 | RMSE_V = 6.3169 | RMSE_A = 6.4962
+
+[2026-04-11 13:59:31] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.7454 | PCC_A = 0.0653 | RMSE_V = 4.6095 | RMSE_A = 5.4294
+
+[2026-04-11 14:01:12] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.7254 | PCC_A = -0.8131 | RMSE_V = 6.0252 | RMSE_A = 6.5534
+
+[2026-04-11 14:03:12] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.6421 | PCC_A = 0.6636 | RMSE_V = 6.3515 | RMSE_A = 6.7493
+
+[2026-04-11 14:06:48] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.6562 | PCC_A = 0.2341 | RMSE_V = 6.6886 | RMSE_A = 6.0233
+
+[2026-04-11 14:13:36] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.6624 | PCC_A = -0.3690 | RMSE_V = 5.9858 | RMSE_A = 6.6129
+
+[2026-04-11 14:16:53] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.2707 | PCC_A = 0.0594 | RMSE_V = 5.7535 | RMSE_A = 5.9281
+
+[2026-04-11 14:18:33] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.1873 | PCC_A = -0.1834 | RMSE_V = 5.8413 | RMSE_A = 6.3129
+
+[2026-04-11 18:39:46] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.3495 | PCC_A = 0.1492 | RMSE_V = 6.0228 | RMSE_A = 6.7400
+- average_ensemble : PCC_V = -0.2252 | PCC_A = 0.2876 | RMSE_V = 6.2148 | RMSE_A = 6.2758
+
+[2026-04-11 18:51:25] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.1836 | PCC_A = -0.4737 | RMSE_V = 6.0395 | RMSE_A = 6.4930
+- average_ensemble : PCC_V = -0.2018 | PCC_A = -0.4957 | RMSE_V = 6.0125 | RMSE_A = 6.4766
+
+[2026-04-11 18:54:47] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.4623 | PCC_A = -0.2221 | RMSE_V = 5.9253 | RMSE_A = 6.5384
+
+[2026-04-11 19:01:01] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.7614 | PCC_A = 0.8687 | RMSE_V = 5.3275 | RMSE_A = 6.1987
+- average_ensemble : PCC_V = 0.7614 | PCC_A = 0.8687 | RMSE_V = 5.3275 | RMSE_A = 6.1987
+
+[2026-04-11 19:13:29] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.6760 | PCC_A = -0.4440 | RMSE_V = 6.4787 | RMSE_A = 6.3981
+- average_ensemble : PCC_V = -0.6760 | PCC_A = -0.4440 | RMSE_V = 6.4787 | RMSE_A = 6.3981
+
+[2026-04-11 19:26:23] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = 0.4782 | PCC_A = 0.6052 | RMSE_V = 6.0061 | RMSE_A = 6.5635
+- average_ensemble : PCC_V = 0.4782 | PCC_A = 0.6052 | RMSE_V = 6.0061 | RMSE_A = 6.5635
+
+[2026-04-11 19:37:24] RÉCAPITULATIF DES RÉSULTATS
+- distilbert-base-uncased-finetuned-sst-2-english : PCC_V = -0.6808 | PCC_A = -0.7467 | RMSE_V = 6.6304 | RMSE_A = 6.7540
+- average_ensemble : PCC_V = -0.3521 | PCC_A = 0.1595 | RMSE_V = 6.6583 | RMSE_A = 6.4864
+
+[2026-04-11 19:40:26] RÉCAPITULATIF DES RÉSULTATS
+- baby_bert_1 : PCC_V = -0.6102 | PCC_A = 0.1149 | RMSE_V = 6.1836 | RMSE_A = 6.6907
+- baby_bert_2 : PCC_V = 0.0740 | PCC_A = -0.9255 | RMSE_V = 6.1168 | RMSE_A = 6.3050
+- average_ensemble : PCC_V = -0.3838 | PCC_A = -0.6400 | RMSE_V = 6.1478 | RMSE_A = 6.4965

@@ -1,0 +1,11 @@
+,Aspect,ID,Text,Valence,Arousal,baby_bert_1_valence,baby_bert_1_arousal,baby_bert_2_valence,baby_bert_2_arousal
+0,cold appetizer dishes,rest16_quad_train_660,the cold appetizer dishes taste like the way i remember them to taste when i was growing up in taiwan .,5.33,5.33,0.8461784,-0.032503124,0.845299,0.79235995
+1,pumkin tortelini,rest16_quad_train_223,"the have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious , if i must recommend a dish it must be the pumkin tortelini .",7.12,7.38,0.47459656,0.1339384,0.82853985,0.54521036
+2,fish,rest16_quad_test_315,maybe it is good for that one night once in a blue moon when the chefs decide to use fish that ' s half - way decent .,6.67,6.33,1.2913632,0.36160272,0.6956495,0.8319315
+3,server,rest16_quad_train_219,the server was really cool and served us our food and drinks with a smile .,7.25,7.5,0.55293214,0.13177972,0.45193875,0.50859284
+4,NULL,rest16_quad_train_1500,appetizers took nearly an hour .,3.2,4.75,1.0167226,0.29194757,0.47525463,0.98063564
+5,breakfast,rest16_quad_test_235,i love breakfast here .,7.2,7.1,0.45065084,0.460001,0.56504864,0.6104382
+6,place,rest16_quad_train_364,"the place is small and intimate and you may feel a little crowded , but the service is excellent and it ' s great for friends out , a romantic date , or a special occassion .",6.5,6.75,0.4789527,0.2246214,0.6625837,0.59772193
+7,paul,rest16_quad_train_1154,"paul , the maitre d ' , was totally professional and always on top of things .",8.17,8.33,0.23585969,0.26345757,0.4934147,0.43919578
+8,lobster,rest16_quad_train_231,i have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .,7.3,7.2,0.7451893,0.20219326,1.2938608,0.6906619
+9,service,rest16_quad_dev_121,the service was quick and friendly .,7.67,7.67,0.47034693,0.19389978,0.4574122,0.43776098

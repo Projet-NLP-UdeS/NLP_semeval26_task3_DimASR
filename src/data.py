@@ -66,6 +66,7 @@ class VADataset(Dataset):
         max_len (int): max sequence length.
     '''
     def __init__(self, dataframe, tokenizer, max_len=128):
+        self.ids = dataframe["ID"].tolist()
         self.sentences = dataframe["Text"].tolist()
         self.aspects = dataframe["Aspect"].tolist()
         self.labels = dataframe[["Valence", "Arousal"]].values.astype(float)
@@ -88,5 +89,6 @@ class VADataset(Dataset):
         return { # squeeze out superfluous batch dimension
             "input_ids": encoded["input_ids"].squeeze(0), 
             "attention_mask": encoded["attention_mask"].squeeze(0),
-            "labels": torch.tensor(self.labels[idx], dtype=torch.float)
+            "labels": torch.tensor(self.labels[idx], dtype=torch.float),
+            "ID": self.ids[idx]
         }

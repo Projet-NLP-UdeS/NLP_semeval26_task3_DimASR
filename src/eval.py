@@ -4,11 +4,12 @@ Evaluate models on metrics.
 import math
 import torch
 import numpy as np
+import pandas as pd
 from scipy.stats import pearsonr
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-def get_prd(model,dataloder, type ="dev"):
+def get_prd(model, dataloder, type="dev"):
     if type == "dev":
         all_preds, all_labels = [], []
         with torch.no_grad():
@@ -44,6 +45,43 @@ def get_prd(model,dataloder, type ="dev"):
         pred_a = preds[:, 1]
 
         return pred_v, pred_a
+
+def predict_to_dataframe(model, dataloder, dataframe, pred_v_col="Pred_Valence", pred_a_col="Pred_Arousal"):
+    """
+    Run batched inference and append predictions to a copy of the input dataframe.
+
+    Works with ID column check.
+    """
+    rows = []
+    with torch.no_grad():
+        for batch in dataloder:
+            input_ids = batch["input_ids"].to(device)
+            attention_mask = batch["attention_mask"].to(device)
+            outputs = model(input_ids, attention_mask).cpu().numpy()
+
+            batch_ids = batch.get("ID")
+            rows.extend(
+                {
+                    "ID": id_,
+                    pred_v_col: v, #round(v,2),
+                    pred_a_col: a, #round(a,2),
+                    # "Notes: VA outputs must be within [1, 9], rounded to two decimals."
+                    # from the official SemEval GitHub
+                }
+                for id_, v, a in zip(batch_ids, outputs[:, 0], outputs[:, 1])
+            )
+    
+    preds_df = pd.DataFrame(rows)
+    df_with_preds = dataframe.copy()
+    df_with_preds = dataframe.merge(
+        preds_df[['ID', pred_v_col, pred_a_col]],
+        on='ID', how='left'
+    )
+
+    if df_with_preds[pred_v_col].isna().any():
+        ValueError("There are missing predictions.")
+
+    return df_with_preds
 
 def evaluate_predictions_task1(pred_a, pred_v, gold_a, gold_v, is_norm=False):
     if not (all(1 <= x <= 9 for x in pred_v) and all(1 <= x <= 9 for x in pred_a)):

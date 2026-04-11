@@ -26,7 +26,6 @@ class TransformerVARegressor(nn.Module):
 
             optimizer.zero_grad()
             outputs = self(input_ids, attention_mask)
-            print(outputs)
             loss = loss_fn(outputs, labels)
             loss.backward()
             optimizer.step()
