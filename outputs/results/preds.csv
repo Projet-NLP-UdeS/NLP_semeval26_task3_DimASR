@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_1_valence,baby_bert_1_arousal,baby_bert_2_valence,baby_bert_2_arousal
-0,cold appetizer dishes,rest16_quad_train_660,the cold appetizer dishes taste like the way i remember them to taste when i was growing up in taiwan .,5.33,5.33,0.8461784,-0.032503124,0.845299,0.79235995
-1,pumkin tortelini,rest16_quad_train_223,"the have over 100 different beers to offer thier guest so that made my husband very happy and the food was delicious , if i must recommend a dish it must be the pumkin tortelini .",7.12,7.38,0.47459656,0.1339384,0.82853985,0.54521036
-2,fish,rest16_quad_test_315,maybe it is good for that one night once in a blue moon when the chefs decide to use fish that ' s half - way decent .,6.67,6.33,1.2913632,0.36160272,0.6956495,0.8319315
-3,server,rest16_quad_train_219,the server was really cool and served us our food and drinks with a smile .,7.25,7.5,0.55293214,0.13177972,0.45193875,0.50859284
-4,NULL,rest16_quad_train_1500,appetizers took nearly an hour .,3.2,4.75,1.0167226,0.29194757,0.47525463,0.98063564
-5,breakfast,rest16_quad_test_235,i love breakfast here .,7.2,7.1,0.45065084,0.460001,0.56504864,0.6104382
-6,place,rest16_quad_train_364,"the place is small and intimate and you may feel a little crowded , but the service is excellent and it ' s great for friends out , a romantic date , or a special occassion .",6.5,6.75,0.4789527,0.2246214,0.6625837,0.59772193
-7,paul,rest16_quad_train_1154,"paul , the maitre d ' , was totally professional and always on top of things .",8.17,8.33,0.23585969,0.26345757,0.4934147,0.43919578
-8,lobster,rest16_quad_train_231,i have to highly recommend the lobster roll - not to much mayo ; you can tell it was a fresh lobster .,7.3,7.2,0.7451893,0.20219326,1.2938608,0.6906619
-9,service,rest16_quad_dev_121,the service was quick and friendly .,7.67,7.67,0.47034693,0.19389978,0.4574122,0.43776098
+0,dish,rest16_quad_dev_103,this dish is my favorite and i always get it when i go there and never get tired of it .,7.25,7.0,0.3984814,0.24842279,0.45541528,0.46634874
+1,service,rest16_quad_train_267,"they have it all - - great price , food , and service .",7.0,7.0,0.3868383,0.18214767,0.3349853,0.48437244
+2,ingredients,rest16_quad_train_1132,"what really makes it shine is the food , which is aggressively seasoned with cyrpriot spices , and all made in - house ( even the gyro meat and sausages ) , and made of much higher quality ingredients that might otherwise be expected .",8.5,8.5,0.49494794,0.26649672,0.38965848,0.4667312
+3,place,rest16_quad_train_549,i absolutely loved this place .,7.5,7.3,0.29818246,0.41483247,0.43131772,0.41551825
+4,NULL,rest16_quad_train_1367,"as to my comment about the food , no apology or acknowledgment was made .",4.5,5.17,0.1965853,0.7167902,0.72872174,0.8735065
+5,place,rest16_quad_train_316,"however , i think this place is a good hang out spot .",6.5,6.75,0.58235115,0.10404295,0.18907484,0.40485358
+6,bagels,rest16_quad_train_804,great bagels made the old - fashioned way .,7.75,7.75,0.38227287,0.24658264,0.36135176,0.5546562
+7,sushi,rest16_quad_train_120,this is the best sushi in new york city - hands down .,7.0,6.83,0.41559133,0.18630025,0.55952466,0.33330268
+8,bruschettas,rest16_quad_train_525,"the large selection of bruschettas , paninis , tramezzinis keep the palate from stagnating .",7.0,6.9,0.4591733,-0.030761214,0.26217487,0.6612943
+9,pasta mains,rest16_quad_train_815,"the anti - pasta was excellent , especially the calamari , as were the filling pasta mains .",8.0,8.25,0.50497466,0.24884258,0.48512843,0.4916964

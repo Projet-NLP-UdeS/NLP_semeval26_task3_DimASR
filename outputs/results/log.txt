@@ -65,3 +65,18 @@
 - baby_bert_1 : PCC_V = -0.6102 | PCC_A = 0.1149 | RMSE_V = 6.1836 | RMSE_A = 6.6907
 - baby_bert_2 : PCC_V = 0.0740 | PCC_A = -0.9255 | RMSE_V = 6.1168 | RMSE_A = 6.3050
 - average_ensemble : PCC_V = -0.3838 | PCC_A = -0.6400 | RMSE_V = 6.1478 | RMSE_A = 6.4965
+
+[2026-04-12 02:46:02] RÉCAPITULATIF DES RÉSULTATS
+Running in Colab with cpu device...- baby_bert_1 : PCC_V = 0.1444 | PCC_A = 0.3708 | RMSE_V = 5.9130 | RMSE_A = 5.8793
+- baby_bert_2 : PCC_V = 0.7353 | PCC_A = 0.6139 | RMSE_V = 5.8143 | RMSE_A = 5.7604
+- average_ensemble : PCC_V = 0.6666 | PCC_A = 0.6080 | RMSE_V = 5.8613 | RMSE_A = 5.8165
+
+[2026-04-12 03:26:19] RÉCAPITULATIF DES RÉSULTATS
+Running in Colab with cpu device...- baby_bert_1 : PCC_V = 0.8339 | PCC_A = 0.0668 | RMSE_V = 6.6298 | RMSE_A = 7.0277
+- baby_bert_2 : PCC_V = 0.7373 | PCC_A = -0.2040 | RMSE_V = 6.4951 | RMSE_A = 7.1841
+- average_ensemble : PCC_V = 0.8274 | PCC_A = -0.0602 | RMSE_V = 6.5619 | RMSE_A = 7.1056
+
+[2026-04-12 04:35:50] RÉCAPITULATIF DES RÉSULTATS
+Running in Colab with cpu device...- baby_bert_1 : PCC_V = 0.5521 | PCC_A = -0.4368 | RMSE_V = 6.7584 | RMSE_A = 6.9553
+- baby_bert_2 : PCC_V = -0.4477 | PCC_A = -0.5579 | RMSE_V = 6.7700 | RMSE_A = 6.6999
+- average_ensemble : PCC_V = -0.0743 | PCC_A = -0.5628 | RMSE_V = 6.7632 | RMSE_A = 6.8270
