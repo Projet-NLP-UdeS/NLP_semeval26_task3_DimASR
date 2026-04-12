@@ -1,4 +1,12 @@
 models:
+  - name: bert-base-multilingual-cased
+    nickname: bert_base
+    type: transformer
+    lr: 1e-5
+    epochs: 8
+    batch_size: 32
+    dropout: 0.1
+
   # base model used for quick CPU testing
   # ~2000 lines / batch size != hugging iterations ?
   - name: distilbert-base-uncased-finetuned-sst-2-english
@@ -23,12 +31,6 @@ models:
   #   type: sklearn
   #   max_features: 5000
 
-  # - name: bert-base-multilingual-cased
-  #   type: transformer
-  #   lr: 1e-5
-  #   epochs: 8
-  #   batch_size: 32
-  #   dropout: 0.1
 
   # - name: microsoft/deberta-v3-base
   #   type: transformer
