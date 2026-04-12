@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_rapid_tests_valence,baby_bert_rapid_tests_arousal
-0,egyptian restaurant,rest16_quad_train_1118,a beautifully designed dreamy egyptian restaurant that gets sceney at night .,8.0,8.25,0.40829954,0.8356018
-1,NULL,rest16_quad_test_493,after sitting there with my empty glass for over 20 minutes i left .,4.4,5.2,0.63463116,0.13691472
-2,service,rest16_quad_test_134,"the food is not what it once was ( potions have seriously seen downsizing ) prices have gone up , and the service is the worst i have experienced anywhere ( including mainland europe ) .",2.0,8.0,0.6509658,0.19283989
-3,service,rest16_quad_test_206,"– as with most restaurants in seattle , mioposto ' s service was bad and the food was overpriced .",2.7,7.3,0.50750303,0.17971846
-4,east village pizza,rest16_quad_train_1376,i love margherita pizza – i looove east village pizza,7.0,7.33,0.6609524,0.60840046
-5,place,rest16_quad_train_265,"in any event , this is a place i ' ll be sure to stop by again when i ' m in this part of town .",7.25,6.5,0.66255105,0.16998407
-6,pakistani food,rest16_quad_train_893,authentic pakistani food .,7.5,7.33,0.37975898,0.63058895
-7,NULL,rest16_quad_test_389,amazing .,8.38,8.5,0.42479318,0.662114
-8,sushi,rest16_quad_test_164,"good sushi , high price",7.33,7.17,0.42820844,0.6569318
-9,cheese,rest16_quad_train_69,the pizza was delivered cold and the cheese was n ' t even fully melted !,3.0,6.62,0.54880923,0.10666384
+0,NULL,rest16_quad_test_190,fresh ingrediants and super tasty .,7.5,7.5,0.6835446,0.49162108
+1,NULL,rest16_quad_train_672,they charge different prices all the time .,4.75,5.0,0.21988806,0.72646576
+2,jeckll and hydes,rest16_quad_dev_42,"however , i think jeckll and hydes t is one of those places that is fun to do once .",7.33,7.17,0.5776759,0.33894467
+3,food,rest16_quad_train_1270,"wish ny had more of these kind of places : intimate , superb food , homey , top notch all the way around , certainly worth the wait .",7.83,7.83,0.54946655,0.58247477
+4,service,rest16_quad_train_974,he offers subpar service and has no personality .,3.75,5.75,0.11859644,0.6946887
+5,the four seasons,rest16_quad_train_1084,"the food was excellent as well as service , however , i left the four seasons very dissappointed .",2.62,6.38,-0.09159564,0.762945
+6,food,rest16_quad_test_47,– the food was not great & the waiters were rude .,4.0,4.67,-0.11115029,0.8812983
+7,NULL,rest16_quad_dev_136,impressed . . .,7.62,7.5,0.197887,0.46834478
+8,pizza,rest16_quad_test_54,"the only problem is you really have to warm up the pizza before it ' s edible , even when you order ahead .",3.38,5.88,-0.07238067,0.6634972
+9,decor,rest16_quad_train_1383,"not only is it an adventure getting to this somewhat hidden spot , once you enter the unmarked wooden doors , the zen and intimate decor will make you feel like you ’ re no longer in the city .",7.83,8.17,0.45483804,0.2628489

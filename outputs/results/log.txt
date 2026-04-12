@@ -159,3 +159,76 @@ HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-
 
 2026-04-12 10:22:59,430 | INFO | This shows in notebook and goes to file 
 
+2026-04-12 14:26:51,609 | INFO | This shows in notebook and goes to file 
+
+2026-04-12 14:26:51,635 | INFO | Will be using cpu device. 
+
+2026-04-12 14:26:51,640 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-12 14:26:51,776 | INFO | Will be using remote default dataset 
+
+2026-04-12 14:26:52,446 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+] 
+
+2026-04-12 14:27:10,947 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,033 | INFO | HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,153 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,154 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads. 
+
+2026-04-12 14:27:11,253 | INFO | HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,366 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 14:27:11,476 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:11,560 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 14:27:11,647 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,733 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/vocab.txt "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,821 | INFO | HTTP Request: GET https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/vocab.txt "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:11,952 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:12,035 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:12,121 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:12,210 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:12,346 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:12,432 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found" 
+
+2026-04-12 14:27:13,801 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:13,930 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/model.safetensors "HTTP/1.1 302 Found" 
+
+2026-04-12 14:27:14,085 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/xet-read-token/714eb0fa89d2f80546fda750413ed43d93601a13 "HTTP/1.1 200 OK" 
+
+2026-04-12 14:27:49,563 | INFO | Epoch 1/1 | Train Loss: 42.6684 | Val Loss: 35.0819 
+
+2026-04-12 14:27:54,722 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/baby_bert_rapid_tests_0_1_last.pt 
+
+2026-04-12 14:27:56,475 | INFO | Récapitulatif des résultats: 
+
+2026-04-12 14:27:56,478 | INFO | Running in Colab with cpu device... 
+
+2026-04-12 14:27:56,480 | INFO | - baby_bert_rapid_tests : PCC_V = 0.8705 | PCC_A = -0.8467 | RMSE_V = 5.6959 | RMSE_A = 6.1418 
+
+2026-04-12 14:27:56,481 | INFO | - average_ensemble : PCC_V = 0.8705 | PCC_A = -0.8467 | RMSE_V = 5.6959 | RMSE_A = 6.1418 
+
