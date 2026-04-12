@@ -8,6 +8,7 @@
 - [ ] Log training resources 
 - [ ] Log max_len tokenizer process
 - [ ] Stack predictions
+- [ ] Check BERT wasn't augmented
 
 ## Machine Learning
 
