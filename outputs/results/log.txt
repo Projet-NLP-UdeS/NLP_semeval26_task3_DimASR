@@ -88,3 +88,8 @@ Running in Colab with cpu device...- baby_bert_1 : PCC_V = 0.5521 | PCC_A = -0.4
 [2026-04-12 05:18:20] RÉCAPITULATIF DES RÉSULTATS
 Running in Colab with cpu device...- baby_bert_1 : PCC_V = -0.6040 | PCC_A = 0.3203 | RMSE_V = 5.9984 | RMSE_A = 6.0016
 - average_ensemble : PCC_V = -0.6040 | PCC_A = 0.3203 | RMSE_V = 5.9984 | RMSE_A = 6.0016
+
+[2026-04-12 07:25:55] RÉCAPITULATIF DES RÉSULTATS
+Running in Colab with cuda device...- bert_base : PCC_V = 0.9586 | PCC_A = 0.8956 | RMSE_V = 0.5945 | RMSE_A = 0.6084
+- baby_bert_1 : PCC_V = 0.9381 | PCC_A = 0.8565 | RMSE_V = 0.7262 | RMSE_A = 0.6857
+- average_ensemble : PCC_V = 0.9187 | PCC_A = 0.8379 | RMSE_V = 0.7598 | RMSE_A = 0.6937
