@@ -1,47 +1,49 @@
 models:
-  - name: bert-base-multilingual-cased
-    nickname: bert_base
-    type: transformer
-    lr: 1e-5
-    epochs: 4
-    batch_size: 32
-    dropout: 0.1
-
   # base model used for quick CPU testing
   # ~2000 lines / batch size != hugging iterations ?
   - name: distilbert-base-uncased-finetuned-sst-2-english
-    nickname: baby_bert_1
+    nickname: baby_bert_rapid_tests
     type: transformer
-    lr: 1e-5
-    epochs: 4
+    lr: 2e-5
+    epochs: 1
     batch_size: 32
-    dropout: 0.1
+    dropout: 0.2
+    max_len: 64
 
   # - name: distilbert-base-uncased-finetuned-sst-2-english
-  #   nickname: baby_bert_2
+  #   nickname: baby_bert
   #   type: transformer
   #   lr: 2e-5
-  #   epochs: 1
+  #   epochs: 4
   #   batch_size: 32
-  #   dropout: 0.2
-  #   max_len: 128
+  #   dropout: 0.1
+
+  # - name: bert-base-multilingual-cased
+  #   nickname: bert_base
+  #   type: transformer
+  #   lr: 2e-5
+  #   epochs: 4
+  #   batch_size: 32
+  #   dropout: 0.1
+
+  # - name: microsoft/deberta-v3-base
+  #   nickname: deberta_base
+  #   type: transformer
+  #   lr: 2e-5
+  #   epochs: 4
+  #   batch_size: 32
+  #   dropout: 0.1
+
+  # - name: FacebookAI/roberta-base
+  #   nickname: roberta_base
+  #   type: transformer
+  #   lr: 2e-5
+  #   epochs: 4
+  #   batch_size: 32
+  #   dropout: 0.1
 
   # - name: SVR_Baseline
   #   type: sklearn
   #   max_features: 5000
-
-
-  # - name: microsoft/deberta-v3-base
-  #   type: transformer
-  #   lr: 1e-5
-  #   epochs: 8
-  #   batch_size: 32
-  #   dropout: 0.1
-
-  # - name: roberta-base
-  #   type: transformer
-  #   lr: 1e-6
-  #   epochs: 8
-  #   batch_size: 32
   #   dropout: 0.1
   

@@ -93,3 +93,69 @@ Running in Colab with cpu device...- baby_bert_1 : PCC_V = -0.6040 | PCC_A = 0.3
 Running in Colab with cuda device...- bert_base : PCC_V = 0.9586 | PCC_A = 0.8956 | RMSE_V = 0.5945 | RMSE_A = 0.6084
 - baby_bert_1 : PCC_V = 0.9381 | PCC_A = 0.8565 | RMSE_V = 0.7262 | RMSE_A = 0.6857
 - average_ensemble : PCC_V = 0.9187 | PCC_A = 0.8379 | RMSE_V = 0.7598 | RMSE_A = 0.6937
+This shows in notebook and goes to file
+Will be using cpu device.
+Will be using a lighter training configuration, not suitable for final results.
+This shows in notebook and goes to file
+Will be using cpu device.
+Will be using a lighter training configuration, not suitable for final results.
+Will be using remote default dataset
+[
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_1",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 4,
+    "batch_size": 32,
+    "dropout": 0.1
+  }
+]
+HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-12 10:20:23,724 | INFO | This shows in notebook and goes to file
+2026-04-12 10:20:23,739 | INFO | Will be using cpu device.
+2026-04-12 10:20:23,742 | INFO | Will be using a lighter training configuration, not suitable for final results.
+2026-04-12 10:20:24,010 | INFO | Will be using remote default dataset
+2026-04-12 10:20:24,563 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+]
+2026-04-12 10:20:24,772 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-12 10:20:24,774 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-12 10:20:24,856 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-12 10:20:24,941 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-12 10:20:25,019 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-12 10:20:25,066 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-12 10:20:25,114 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-12 10:20:25,194 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-12 10:20:34,397 | INFO | Epoch 1/1 | Train Loss: 42.4616 | Val Loss: 40.8163
+2026-04-12 10:21:04,594 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-12 10:21:04,647 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-12 10:21:04,694 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-12 10:21:04,743 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-12 10:21:04,785 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-04-12 10:21:04,838 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-12 10:21:04,912 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-04-12 10:21:13,201 | INFO | Epoch 1/1 | Train Loss: 42.3639 | Val Loss: 39.9154
+2026-04-12 10:21:14,519 | INFO | Checkpoint saved: outputs/checkpoints/baby_bert_rapid_tests_0_1_last.pt
+2026-04-12 10:21:15,149 | INFO | Récapitulatif des résultats:
+2026-04-12 10:21:15,152 | INFO | - baby_bert_rapid_tests : PCC_V = -0.4670 | PCC_A = 0.6202 | RMSE_V = 5.7415 | RMSE_A = 6.8459
+
+2026-04-12 10:21:15,154 | INFO | - average_ensemble : PCC_V = -0.4670 | PCC_A = 0.6202 | RMSE_V = 5.7415 | RMSE_A = 6.8459
+
+2026-04-12 10:22:59,430 | INFO | This shows in notebook and goes to file 
+
