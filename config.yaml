@@ -3,7 +3,7 @@ models:
     nickname: bert_base
     type: transformer
     lr: 1e-5
-    epochs: 8
+    epochs: 4
     batch_size: 32
     dropout: 0.1
 
@@ -12,11 +12,10 @@ models:
   - name: distilbert-base-uncased-finetuned-sst-2-english
     nickname: baby_bert_1
     type: transformer
-    lr: 2e-5
-    epochs: 1
+    lr: 1e-5
+    epochs: 4
     batch_size: 32
     dropout: 0.1
-    max_len: 128
 
   # - name: distilbert-base-uncased-finetuned-sst-2-english
   #   nickname: baby_bert_2
