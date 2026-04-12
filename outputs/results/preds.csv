@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_1_valence,baby_bert_1_arousal
-0,pizza place,rest16_quad_test_53,mama mia – i live in the neighborhood and feel lucky to live by such a great pizza place .,7.88,8.0,0.40348798,0.66204435
-1,NULL,rest16_quad_train_834,it is expensive but well worth the money .,5.5,6.67,0.56867194,0.81801546
-2,NULL,rest16_quad_train_1000,"to me it exemplifies soho , cute , artsy , interesting .",7.5,7.67,1.0091728,0.6336089
-3,bagel,rest16_quad_train_227,the bagel was huge .,7.33,7.5,0.45043516,0.49608436
-4,tom kha soup,rest16_quad_train_587,and the tom kha soup was pathetic .,1.25,8.75,0.71078765,0.9599285
-5,service,rest16_quad_train_1261,"the service is amazing , i ' ve had different waiters and they were all nice , which is a rare thing in nyc .",8.0,8.5,0.6589036,0.63190323
-6,filet mignon,rest16_quad_test_346,"the food was very good , filet mignon was probably the best i ' ve ever try .",7.0,7.33,0.9069567,0.70482796
-7,sardines with biscuits,rest16_quad_train_602,"the dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest i ' ve ever had ) .",5.0,5.0,0.54869103,0.68666524
-8,pastis,rest16_quad_dev_31,and evaluated on those terms pastis is simply wonderful .,8.0,7.88,0.5968604,0.549442
-9,food,rest16_quad_dev_162,"but nonetheless - - great spot , great food .",7.0,6.88,0.56518555,0.6617232
+0,ambience,rest16_quad_train_420,the location and ambience is ok but the food is what makes up for it .,5.5,5.0,-0.0732293,0.6661613
+1,customer service,rest16_quad_test_205,poor customer service / poor pizza .,3.5,6.0,0.58252263,0.6622082
+2,atmoshere,rest16_quad_train_728,great atmoshere and worth every bit .,7.62,7.75,0.22389354,0.781296
+3,sake,rest16_quad_train_1033,great sake !,7.5,7.67,-0.46471816,0.6017851
+4,delivery guy,rest16_quad_train_1038,delivery guy sometimes get upset if you do n ' t tip more than 10 % .,3.88,6.12,0.32446438,0.48173875
+5,NULL,rest16_quad_train_447,i go twice a month !,5.25,5.12,0.40499914,0.76265514
+6,NULL,rest16_quad_train_186,a must try !,6.7,6.8,0.41644663,0.7184887
+7,NULL,rest16_quad_test_516,"we went back to the restaurant and low and behold , we were seated at one of the tables that was available 30 minutes ago ! !",3.8,6.6,0.37093306,0.66327244
+8,sushi,rest16_quad_test_41,freshest sushi – i love this restaurant .,7.75,7.75,-0.08125746,0.7562714
+9,service,rest16_quad_train_145,i ' d highly recommend it for a special occasion - - it provides and intimate setting and nice service .,7.5,7.5,0.19212459,0.98219764
