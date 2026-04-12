@@ -10,14 +10,14 @@ models:
     dropout: 0.1
     max_len: 128
 
-  - name: distilbert-base-uncased-finetuned-sst-2-english
-    nickname: baby_bert_2
-    type: transformer
-    lr: 2e-5
-    epochs: 1
-    batch_size: 32
-    dropout: 0.2
-    max_len: 128
+  # - name: distilbert-base-uncased-finetuned-sst-2-english
+  #   nickname: baby_bert_2
+  #   type: transformer
+  #   lr: 2e-5
+  #   epochs: 1
+  #   batch_size: 32
+  #   dropout: 0.2
+  #   max_len: 128
 
   # - name: SVR_Baseline
   #   type: sklearn

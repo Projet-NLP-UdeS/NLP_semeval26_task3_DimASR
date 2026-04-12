@@ -1,11 +1,11 @@
-,Aspect,ID,Text,Valence,Arousal,baby_bert_1_valence,baby_bert_1_arousal,baby_bert_2_valence,baby_bert_2_arousal
-0,dish,rest16_quad_dev_103,this dish is my favorite and i always get it when i go there and never get tired of it .,7.25,7.0,0.3984814,0.24842279,0.45541528,0.46634874
-1,service,rest16_quad_train_267,"they have it all - - great price , food , and service .",7.0,7.0,0.3868383,0.18214767,0.3349853,0.48437244
-2,ingredients,rest16_quad_train_1132,"what really makes it shine is the food , which is aggressively seasoned with cyrpriot spices , and all made in - house ( even the gyro meat and sausages ) , and made of much higher quality ingredients that might otherwise be expected .",8.5,8.5,0.49494794,0.26649672,0.38965848,0.4667312
-3,place,rest16_quad_train_549,i absolutely loved this place .,7.5,7.3,0.29818246,0.41483247,0.43131772,0.41551825
-4,NULL,rest16_quad_train_1367,"as to my comment about the food , no apology or acknowledgment was made .",4.5,5.17,0.1965853,0.7167902,0.72872174,0.8735065
-5,place,rest16_quad_train_316,"however , i think this place is a good hang out spot .",6.5,6.75,0.58235115,0.10404295,0.18907484,0.40485358
-6,bagels,rest16_quad_train_804,great bagels made the old - fashioned way .,7.75,7.75,0.38227287,0.24658264,0.36135176,0.5546562
-7,sushi,rest16_quad_train_120,this is the best sushi in new york city - hands down .,7.0,6.83,0.41559133,0.18630025,0.55952466,0.33330268
-8,bruschettas,rest16_quad_train_525,"the large selection of bruschettas , paninis , tramezzinis keep the palate from stagnating .",7.0,6.9,0.4591733,-0.030761214,0.26217487,0.6612943
-9,pasta mains,rest16_quad_train_815,"the anti - pasta was excellent , especially the calamari , as were the filling pasta mains .",8.0,8.25,0.50497466,0.24884258,0.48512843,0.4916964
+,Aspect,ID,Text,Valence,Arousal,baby_bert_1_valence,baby_bert_1_arousal
+0,pizza place,rest16_quad_test_53,mama mia – i live in the neighborhood and feel lucky to live by such a great pizza place .,7.88,8.0,0.40348798,0.66204435
+1,NULL,rest16_quad_train_834,it is expensive but well worth the money .,5.5,6.67,0.56867194,0.81801546
+2,NULL,rest16_quad_train_1000,"to me it exemplifies soho , cute , artsy , interesting .",7.5,7.67,1.0091728,0.6336089
+3,bagel,rest16_quad_train_227,the bagel was huge .,7.33,7.5,0.45043516,0.49608436
+4,tom kha soup,rest16_quad_train_587,and the tom kha soup was pathetic .,1.25,8.75,0.71078765,0.9599285
+5,service,rest16_quad_train_1261,"the service is amazing , i ' ve had different waiters and they were all nice , which is a rare thing in nyc .",8.0,8.5,0.6589036,0.63190323
+6,filet mignon,rest16_quad_test_346,"the food was very good , filet mignon was probably the best i ' ve ever try .",7.0,7.33,0.9069567,0.70482796
+7,sardines with biscuits,rest16_quad_train_602,"the dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest i ' ve ever had ) .",5.0,5.0,0.54869103,0.68666524
+8,pastis,rest16_quad_dev_31,and evaluated on those terms pastis is simply wonderful .,8.0,7.88,0.5968604,0.549442
+9,food,rest16_quad_dev_162,"but nonetheless - - great spot , great food .",7.0,6.88,0.56518555,0.6617232
