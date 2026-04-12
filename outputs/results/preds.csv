@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_rapid_tests_valence,baby_bert_rapid_tests_arousal
-0,NULL,rest16_quad_test_190,fresh ingrediants and super tasty .,7.5,7.5,0.6835446,0.49162108
-1,NULL,rest16_quad_train_672,they charge different prices all the time .,4.75,5.0,0.21988806,0.72646576
-2,jeckll and hydes,rest16_quad_dev_42,"however , i think jeckll and hydes t is one of those places that is fun to do once .",7.33,7.17,0.5776759,0.33894467
-3,food,rest16_quad_train_1270,"wish ny had more of these kind of places : intimate , superb food , homey , top notch all the way around , certainly worth the wait .",7.83,7.83,0.54946655,0.58247477
-4,service,rest16_quad_train_974,he offers subpar service and has no personality .,3.75,5.75,0.11859644,0.6946887
-5,the four seasons,rest16_quad_train_1084,"the food was excellent as well as service , however , i left the four seasons very dissappointed .",2.62,6.38,-0.09159564,0.762945
-6,food,rest16_quad_test_47,– the food was not great & the waiters were rude .,4.0,4.67,-0.11115029,0.8812983
-7,NULL,rest16_quad_dev_136,impressed . . .,7.62,7.5,0.197887,0.46834478
-8,pizza,rest16_quad_test_54,"the only problem is you really have to warm up the pizza before it ' s edible , even when you order ahead .",3.38,5.88,-0.07238067,0.6634972
-9,decor,rest16_quad_train_1383,"not only is it an adventure getting to this somewhat hidden spot , once you enter the unmarked wooden doors , the zen and intimate decor will make you feel like you ’ re no longer in the city .",7.83,8.17,0.45483804,0.2628489
+0,red eye,rest16_quad_train_208,i have never been disappointed in the red eye .,7.12,7.12,0.4454591,0.62021947
+1,dishes,rest16_quad_train_1250,"for me dishes a little oily , but overall dining experience good .",5.0,5.83,0.40515375,0.70908254
+2,manila clams,rest16_quad_test_368,"my party of two was feeling particularly ambitious , and we splurged on the shilshole sampler . . . a beautiful assortment of enormous white gulf prawns , smoked albacore tuna , ray ' s fantastic manila clams seasoned with dill , scallops in a tasty soy dressing , and a tiny pile of dungeness crab atop a sublime butter sauce .",7.5,8.5,0.59207207,0.5305913
+3,meal,rest16_quad_test_24,"– i will never forget the amazing meal , service , and ambiance i experience at this restaurant .",7.88,7.88,0.37325978,0.8719649
+4,NULL,rest16_quad_test_411,been there lots since and its always a good time .,6.62,6.62,0.36643064,0.6974805
+5,lobster bisque,rest16_quad_train_350,my boyfriend had the new england chowder it was good but i think the award should go to the lobster bisque .,7.88,8.25,0.6176733,0.44413334
+6,NULL,rest16_quad_train_789,but that is highly forgivable .,6.88,7.38,0.24983439,0.64588606
+7,NULL,rest16_quad_train_1115,remind me of home .,5.38,5.12,0.15953103,0.71172404
+8,dogs,rest16_quad_train_1184,amazing fresh dogs but best of all endless toppings ! ! !,8.17,8.33,0.5134352,0.80155003
+9,NULL,rest16_quad_train_1395,we never ate because by close to 2 in the monring we were not served and were too upset ad tired to start eating .,2.83,5.12,0.1675418,0.023060303

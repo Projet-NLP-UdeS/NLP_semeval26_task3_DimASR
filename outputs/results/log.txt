@@ -232,3 +232,165 @@ HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-
 
 2026-04-12 14:27:56,481 | INFO | - average_ensemble : PCC_V = 0.8705 | PCC_A = -0.8467 | RMSE_V = 5.6959 | RMSE_A = 6.1418 
 
+2026-04-12 10:31:52,306 | INFO | This shows in notebook and goes to file 
+
+2026-04-12 10:31:52,383 | INFO | Will be using cpu device. 
+
+2026-04-12 10:31:52,384 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-12 10:31:52,828 | INFO | Will be using remote default dataset 
+
+2026-04-12 10:31:53,514 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+] 
+
+2026-04-12 10:31:53,839 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:53,906 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:53,968 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:31:54,032 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-12 10:31:54,089 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:31:54,153 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:54,294 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:56,537 | INFO | This shows in notebook and goes to file 
+
+2026-04-12 10:31:56,554 | INFO | Will be using cpu device. 
+
+2026-04-12 10:31:56,556 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-12 10:31:56,867 | INFO | Will be using remote default dataset 
+
+2026-04-12 10:31:57,091 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+] 
+
+2026-04-12 10:31:57,233 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:57,337 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:57,421 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:31:57,485 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-12 10:31:57,539 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:31:57,619 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-12 10:31:57,725 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:32:09,131 | INFO | Epoch 1/1 | Train Loss: 41.1579 | Val Loss: 36.7435 
+
+2026-04-12 10:35:41,027 | INFO | This shows in notebook and goes to file 
+
+2026-04-12 10:35:41,063 | INFO | Will be using cpu device. 
+
+2026-04-12 10:35:41,066 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-12 10:35:41,512 | INFO | Will be using remote default dataset 
+
+2026-04-12 10:35:41,821 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+] 
+
+2026-04-12 10:35:42,129 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:35:42,218 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:35:42,272 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:35:42,324 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-12 10:35:42,387 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:35:42,483 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-12 10:35:42,682 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:35:51,779 | INFO | Epoch 1/1 | Train Loss: 43.7632 | Val Loss: 36.2040 
+
+2026-04-12 10:35:52,841 | INFO | Checkpoint saved: outputs/checkpoints/baby_bert_rapid_tests_0_1_last.pt 
+
+2026-04-12 10:35:53,776 | INFO | Récapitulatif des résultats: 
+
+2026-04-12 10:35:53,780 | INFO | - baby_bert_rapid_tests : PCC_V = 0.8232 | PCC_A = -0.5082 | RMSE_V = 5.7332 | RMSE_A = 6.2880 
+
+2026-04-12 10:35:53,781 | INFO | - average_ensemble : PCC_V = 0.8232 | PCC_A = -0.5082 | RMSE_V = 5.7332 | RMSE_A = 6.2880 
+
+2026-04-12 10:36:08,827 | INFO | This shows in notebook and goes to file 
+
+2026-04-12 10:36:08,849 | INFO | Will be using cpu device. 
+
+2026-04-12 10:36:08,852 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-12 10:36:09,297 | INFO | Will be using remote default dataset 
+
+2026-04-12 10:36:09,788 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert_rapid_tests",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 1,
+    "batch_size": 32,
+    "dropout": 0.2,
+    "max_len": 64
+  }
+] 
+
+2026-04-12 10:36:10,040 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:36:10,112 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:36:10,168 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:36:10,227 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-12 10:36:10,305 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-12 10:36:10,383 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-12 10:36:10,479 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-12 10:36:18,469 | INFO | Epoch 1/1 | Train Loss: 43.7994 | Val Loss: 41.1523 
+
+2026-04-12 10:36:21,677 | INFO | Checkpoint saved: outputs/checkpoints/baby_bert_rapid_tests_0_1_last.pt 
+
+2026-04-12 10:36:22,497 | INFO | Récapitulatif des résultats: 
+
+2026-04-12 10:36:22,498 | INFO | - baby_bert_rapid_tests : PCC_V = 0.7132 | PCC_A = 0.3370 | RMSE_V = 6.3127 | RMSE_A = 6.5157 
+
+2026-04-12 10:36:22,499 | INFO | - average_ensemble : PCC_V = 0.7132 | PCC_A = 0.3370 | RMSE_V = 6.3127 | RMSE_A = 6.5157 
+
