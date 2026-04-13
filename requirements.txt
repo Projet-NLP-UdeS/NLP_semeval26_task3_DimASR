@@ -1,0 +1,18 @@
+# DimABSA Augmentation Pipeline – Python Dependencies
+# Install with:  pip install -r requirements.txt
+
+# ── NLP core ──────────────────────────────────────────────────────────────────
+spacy>=3.7,<4.0          # PoS tagging (Task 1)
+# After pip install, download the English model:
+#   python -m spacy download en_core_web_sm
+
+# ── Transformers (BERT Teacher) ───────────────────────────────────────────────
+transformers>=4.40,<5.0  # BertVATeacher (Task 2, Teacher 1)
+torch>=2.0               # PyTorch backend for transformers
+# For CPU-only:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# ── HTTP ──────────────────────────────────────────────────────────────────────
+requests>=2.31           # Anthropic API calls (Task 2, Teachers 2 & 3)
+
+# ── Standard library only after this line ─────────────────────────────────────
+# json, re, pathlib, random, concurrent.futures, copy – all built-in
