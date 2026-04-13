@@ -1,11 +1,342 @@
 ,Aspect,ID,Text,Valence,Arousal,deberta_base_valence,deberta_base_arousal,roberta_base_valence,roberta_base_arousal
-0,NULL,rest16_quad_test_566,"once you ' re inside , the real experience begins .",5.0,5.0,4.836051,5.934154,6.4563036,6.9546547
-1,NULL,rest16_quad_test_380,snotty attitude,2.88,6.62,4.3790874,5.666378,5.355808,6.978567
-2,food,rest16_quad_train_864,good food .,7.33,7.33,7.058299,7.4204865,7.5852013,7.092757
-3,basic dishes,rest16_quad_dev_73,"the food is good , especially their more basic dishes , and the drinks are delicious .",6.88,6.75,7.1055517,7.389327,7.7443247,7.3800716
-4,food,rest16_quad_train_67,"the food was average to above - average ; the french onion soup filling yet not overly impressive , and the desserts not brilliant in any way .",5.5,5.25,5.8658533,6.734585,5.5644855,7.4482975
-5,pizza,rest16_quad_train_105,the pizza is yummy and i like the atmoshpere .,7.5,7.75,7.2760305,7.5100646,7.9046717,7.3601313
-6,food,rest16_quad_test_30,"– in a age of incremental cost cutting in restaurants , its nice to see a place that bucks that trend , and just plain delivers high quality food and good service , period .",8.0,8.25,6.053779,6.868911,7.1245694,7.488636
-7,NULL,rest16_quad_train_701,it hits the spot every time,6.8,7.0,4.8071165,5.9309883,7.1009445,7.012949
-8,NULL,rest16_quad_train_783,"terrible , terrible management - deserves to be shut - down .",5.0,5.0,4.9122076,6.009983,4.7429724,7.1250553
-9,sassy lassi,rest16_quad_train_910,my fav was the sassy lassi . . .,8.38,8.5,7.835168,7.678369,7.8422394,7.327791
+0,NULL,rest16_quad_dev_118,way below average,2.67,7.0,4.0546613,5.976386,3.4914913,6.30503
+1,pizza place,rest16_quad_test_53,mama mia – i live in the neighborhood and feel lucky to live by such a great pizza place .,7.88,8.0,7.822354,8.341158,7.9661098,8.135271
+2,cocktail with citrus vodka and lemon and lime juice and mint leaves,rest16_quad_train_1191,the have a great cocktail with citrus vodka and lemon and lime juice and mint leaves that is to die for !,7.88,8.12,7.731464,8.018872,7.9643335,7.9415092
+3,place,rest16_quad_train_499,not a great place for family or general dining .,3.0,6.75,7.6718116,8.015995,3.3586178,6.6788487
+4,food,rest16_quad_test_64,"the food is great , the bartenders go that extra mile .",7.67,7.5,7.845834,8.252607,7.8105683,7.904623
+5,sushi,rest16_quad_train_1211,sushi experience was unbelievable with my fiance .,7.25,7.5,7.690728,7.9544125,7.9828234,8.176489
+6,bar scene,rest16_quad_train_810,the place itself is beautiful the bar scene seems to be happening .,4.67,4.67,7.412654,7.7445126,7.8322673,7.852915
+7,food,rest16_quad_test_47,– the food was not great & the waiters were rude .,4.0,4.67,3.647635,6.1545067,2.1891775,7.6076965
+8,NULL,rest16_quad_train_1423,dumbfoundingly poor,2.2,7.0,3.8593097,6.181488,2.5405817,7.449271
+9,NULL,rest16_quad_dev_14,i had a huge group for my birthday and we were well taken care of .,6.17,6.17,7.134602,7.5152664,7.5691066,7.671286
+10,food,rest16_quad_train_899,the food was actually aweful .,1.33,8.17,3.740471,6.185076,7.927302,8.136563
+11,staff,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",7.33,7.33,7.894958,8.339267,7.9228005,8.045378
+12,staff,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",7.33,7.33,7.894958,8.339267,7.9378557,8.0541725
+13,staff,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",7.33,7.33,7.8911605,8.353625,7.9228005,8.045378
+14,staff,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",7.33,7.33,7.8911605,8.353625,7.9378557,8.0541725
+15,NULL,rest16_quad_train_996,i love it .,8.0,7.88,7.8523703,8.254377,7.884064,7.916048
+16,mermaid inn,rest16_quad_train_504,mermaid inn is an overall good restaurant with really good seafood .,7.5,7.62,7.8650866,8.247929,7.614466,7.6378937
+17,NULL,rest16_quad_train_887,was surprisingly disappointed .,2.83,7.33,3.9799356,6.093486,2.7976255,6.5473547
+18,service,rest16_quad_train_606,the service was excellent and the food was delicious .,8.0,8.12,7.79208,8.412531,7.8616843,8.028455
+19,decor,rest16_quad_train_22,"everything is always cooked to perfection , the service is excellent , the decor cool and understated .",7.75,8.0,7.95916,8.3894,7.895972,8.011744
+20,NULL,rest16_quad_test_424,"you routinely see indian families and friends dining there , which is always a good sign .",7.12,6.88,7.3540244,7.794961,7.2415338,7.295046
+21,egyptian restaurant,rest16_quad_train_1118,a beautifully designed dreamy egyptian restaurant that gets sceney at night .,8.0,8.25,7.7893877,8.175959,7.87769,7.9613037
+22,food,rest16_quad_test_144,"great food , spectacular location , and friendly service keep us coming back year after year .",7.88,7.75,7.899639,8.273463,7.993939,8.05818
+23,la rosa,rest16_quad_dev_108,"la rosa waltzes in , and i think they are doing it the best .",7.5,7.3,7.854381,8.269985,7.7958093,7.854246
+24,young woman,rest16_quad_test_229,"prefer to order it and pick it up though because i do n ' t like the servers , one young woman in particular .",2.0,8.0,4.4229174,6.0837383,3.5969634,6.5233345
+25,somosas,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,4.433381,6.1212263,4.296366,7.2267113
+26,somosas,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,4.433381,6.1212263,4.198132,7.278224
+27,somosas,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,5.017207,6.2305465,4.296366,7.2267113
+28,somosas,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,5.017207,6.2305465,4.198132,7.278224
+29,NULL,rest16_quad_train_987,i heartily recommend .,8.38,8.75,7.684992,8.214461,7.8867636,8.109638
+30,food,rest16_quad_train_282,"sometimes i get bad food and bad service , sometimes i get good good and bad service .",3.5,5.5,3.8452926,6.2514334,3.9903164,6.4575405
+31,NULL,rest16_quad_train_1319,"at first we were a little taken aback , as this seemed to present a problem , although the restaurant looked fairly empty , but they hastily put the table together for us .",5.0,5.0,3.7211025,6.0158606,4.385828,5.729096
+32,NULL,rest16_quad_test_399,you are bound to have a very charming time .,7.67,7.67,7.831559,8.223749,7.625514,7.779974
+33,service,rest16_quad_dev_137,subtle food and service,6.25,7.12,7.478099,7.8356495,6.7533436,7.0293283
+34,food,rest16_quad_train_952,"good music , great food , speedy service affordable prices .",7.67,7.67,7.894345,8.343425,7.7971416,7.9071617
+35,NULL,rest16_quad_test_432,"what a tastly , flaky treat !",7.83,8.0,6.8768897,7.294229,7.8218393,8.05924
+36,NULL,rest16_quad_train_139,"it may be a bit packed on weekends , but the vibe is good and it is the best french food you will find in the area .",6.12,6.5,7.3607235,7.639707,7.1764503,7.2159834
+37,kitchen,rest16_quad_train_61,"the kitchen however , is almost always slow .",4.12,5.38,4.3144956,6.0995026,4.335803,5.772902
+38,candle - light,rest16_quad_train_433,"although the tables may be closely situated , the candle - light , food - quality and service overcompensate .",7.0,6.83,5.769902,6.581149,6.8938236,7.0664454
+39,paul,rest16_quad_train_1154,"paul , the maitre d ' , was totally professional and always on top of things .",8.17,8.33,6.795824,7.3232164,7.935419,8.070853
+40,NULL,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",8.25,8.25,6.682883,7.148916,6.8302135,7.4164224
+41,NULL,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",8.25,8.25,6.682883,7.148916,7.39858,7.8169875
+42,NULL,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",8.25,8.25,7.2919745,7.5931053,6.8302135,7.4164224
+43,NULL,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",8.25,8.25,7.2919745,7.5931053,7.39858,7.8169875
+44,waiter,rest16_quad_test_157,and the waiter suggested a perfect sake ! !,7.62,7.62,7.7823544,8.10752,7.962087,8.073408
+45,paneer,rest16_quad_test_90,i can highly recommend their various saag and paneer and korma .,7.75,7.75,7.7546577,8.00233,8.0543165,8.191359
+46,food,rest16_quad_test_346,"the food was very good , filet mignon was probably the best i ' ve ever try .",6.83,7.17,7.879567,8.309126,7.7391,7.878175
+47,food,rest16_quad_train_383,"the food however , is what one might expect .",5.5,5.25,5.2500744,6.3585014,5.895127,5.929727
+48,NULL,rest16_quad_train_406,everything we had was good or ok . . . . but definitely nothing great .,4.88,5.5,6.9712925,7.3819523,5.490988,6.152372
+49,pasta penne,rest16_quad_train_995,"the pasta penne was pretty extra buttery , creamy which means a big task to diggest . . tasty at first but i would say that i was full with a slice of pizza and 7 to count , penne . . . got a little moody afterwards cause was stuffed . . . lol",6.83,6.67,4.545134,6.1641765,7.3955894,7.5380535
+50,expresso,rest16_quad_train_333,one of us actually liked the expresso - that ' s it .,6.3,6.1,7.2638154,7.653956,7.6305985,7.578101
+51,service,rest16_quad_train_1084,"the food was excellent as well as service , however , i left the four seasons very dissappointed .",8.0,7.88,7.481386,7.791667,4.830438,7.579071
+52,restaurant,rest16_quad_train_187,"on a recent sunday afternoon , a friend and i accidently found this great restaurant on our way to see the pulitzer prize winning play doubt .",6.62,6.62,7.5159206,7.70114,7.8515315,7.968485
+53,terrace,rest16_quad_train_752,in summer - eat outside on a terrace ( another great feature of suan ) ! ! !,7.33,7.33,7.790343,7.928601,7.935433,8.08178
+54,heartland brewery,rest16_quad_train_827,i have been doing all of the above at the heartland brewery for over 5 years now and i have never been disappointed !,7.75,7.75,7.383933,7.7154284,7.8293433,8.068056
+55,vegetarian dish,rest16_quad_dev_142,"rather than preparing vegetarian dish , the chef presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ) .",5.17,4.67,5.5870066,6.5396247,5.2295613,5.7834673
+56,entree,rest16_quad_train_1273,the entree was also very good .,7.0,6.75,7.763545,8.221416,7.4651036,7.6937056
+57,NULL,rest16_quad_train_610,i ' ve waited over one hour for food .,4.75,5.5,3.856083,6.100576,4.589438,5.5209293
+58,staff,rest16_quad_test_179,"finally , my wife stood face to face in front of one of the staff and she asked , ` ` are you waiting for a table ? ' '",3.0,6.75,4.2792625,6.0772185,5.3520646,5.911237
+59,colorado,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",7.88,8.0,6.682883,7.148916,6.8302135,7.4164224
+60,colorado,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",7.88,8.0,6.682883,7.148916,7.39858,7.8169875
+61,colorado,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",7.88,8.0,7.2919745,7.5931053,6.8302135,7.4164224
+62,colorado,rest16_quad_test_98,"– i do n ' t understand how i was a stranger to this place for so long . . . the fajita salad , the colorado , the fajitas - everything is delicious .",7.88,8.0,7.2919745,7.5931053,7.39858,7.8169875
+63,view of the new york city skiline,rest16_quad_train_983,food was good and the view of the new york city skiline was terrific even on a foggy rainy day like that of when i went .,7.0,6.67,7.374904,7.7057667,7.6237965,7.856161
+64,NULL,rest16_quad_test_512,"it is sad there is not many people who frequent eating at places like these that look pricey because they are at the hotel . . . but they are definitely one you dont want to miss , esp if your in downtown san jose .",5.62,5.62,4.448964,6.0941277,5.47826,6.4017854
+65,service,rest16_quad_train_1523,but the service is horrid !,2.62,7.0,3.9704535,6.207533,2.2304795,7.715873
+66,view,rest16_quad_test_363,much more than just a great view !,7.5,7.62,7.9016886,8.358991,7.87453,8.135125
+67,beer,rest16_quad_test_124,i swore never to return for a warm beer and mediocre meal .,5.5,6.0,4.2779436,6.2314,3.8062391,6.7563686
+68,meal,rest16_quad_train_1485,best meal in a long time !,8.0,7.62,7.8683386,8.242144,7.994886,8.17728
+69,people,rest16_quad_test_151,what else can you say nice people amazing food wow,8.0,8.0,7.330065,7.7507334,7.7813234,8.006107
+70,crab dumplings,rest16_quad_train_607,"we are very particular about sushi and were both please with every choice which included : ceviche mix ( special ) , crab dumplings , assorted sashimi , sushi and rolls , two types of sake , and the banana tempura .",8.0,8.0,7.6226125,7.7929068,7.771851,7.864496
+71,mirrored walls,rest16_quad_train_1410,"this place has totally weird decor , stairs going up with mirrored walls - i am surprised how no one yet broke their head or fall off the stairs - mirrored walls make you dizzy and delusional . . .",3.38,6.0,3.759357,6.1725683,3.0283384,7.0595503
+72,NULL,rest16_quad_train_901,"the mussles were the fishiest things i ' ve ever tasted , the seabass was bland , the goat cheese salad was missing the goat cheese , the penne w / chicken had bones in it . . . it was disgusting .",2.25,7.0,3.485485,6.1620283,2.277743,7.2675476
+73,staff,rest16_quad_train_348,the staff offers impeccable service .,7.83,7.83,7.872343,8.33103,7.9050484,8.072271
+74,jekyll and hyde,rest16_quad_train_377,if you want something really different than try jekyll and hyde .,6.8,6.6,6.294915,6.984837,6.6388783,6.904003
+75,drinks,rest16_quad_train_154,the drinks are always well made and wine selection is fairly priced .,7.5,7.5,7.9044228,8.204646,7.354855,7.523711
+76,service,rest16_quad_train_1401,"the meat is fresh , the sauces are great , you get kimchi and a salad free with your meal and service is good too .",6.75,7.0,7.7974377,8.10207,7.545975,7.683253
+77,NULL,rest16_quad_train_788,"only drawback - they wo n ' t toast your bagel , and they do n ' t make eggs for the bagel .",4.5,4.5,3.955221,5.9314094,3.8538585,5.682009
+78,NULL,rest16_quad_test_190,fresh ingrediants and super tasty .,7.5,7.5,7.705393,8.274096,7.8249383,7.8432226
+79,salads,rest16_quad_train_250,"the salads are delicious , both refreshing and very spicy .",8.0,8.0,7.9748,8.324225,8.01596,8.040936
+80,atmosphere,rest16_quad_train_484,"we love the food , drinks , and atmosphere !",8.0,8.0,7.967914,8.23803,7.9683895,8.075216
+81,beer,rest16_quad_train_1321,"there was no tap beer that evening , which was a disappointment .",3.38,5.33,3.887382,6.2432833,2.4518209,7.227246
+82,NULL,rest16_quad_train_769,i was pleasantly suprised .,7.5,7.67,5.946492,6.680901,7.4443965,7.5206523
+83,owner,rest16_quad_train_412,the owner and staff are all japanese as well and that adds to the entire ambiance .,6.0,5.5,7.1117735,7.5627656,7.1869826,7.3568215
+84,wine,rest16_quad_train_427,the wine the service was very good too .,7.38,7.38,7.7806005,8.253298,7.6111083,7.7015047
+85,pam ' s special fried fish,rest16_quad_train_251,we had pam ' s special fried fish and it was amazing .,7.75,8.0,7.8563433,8.264624,8.054621,8.1658535
+86,NULL,rest16_quad_test_532,"she promised to speak to the waitress who had flown off in a rage , but we could hardly take her promise seriously , seeing as she had n ' t bothered to get the waitresses name .",4.75,4.75,3.555028,6.1076536,3.9285731,5.7839966
+87,service,rest16_quad_train_396,"great friendly service , fast seating , fast delivery , excellent sushi .",7.75,7.25,7.910289,8.358261,7.9264445,8.017784
+88,NULL,rest16_quad_train_225,you will not be disapointed at all .,7.38,7.38,4.340883,6.032673,6.387784,6.5880413
+89,management,rest16_quad_train_970,"with so many good restaurants on the uws , i do n ' t need overpriced food , absurdly arrogant wait - staff who do n ' t recognize they work at a glorified diner , clumsy service , and management that does n ' t care .",3.5,5.75,3.8996224,6.0440454,3.2079234,7.0414743
+90,place,rest16_quad_train_686,"this is a great place to take out - of - towners , and perfect for watching the sunset .",7.0,7.17,7.712048,8.193052,8.015908,8.0345955
+91,service,rest16_quad_train_1006,i have been coming here for years and have nothing but good things to say about the service and the great staff at la lanterna .,7.17,7.0,7.847884,8.143135,7.857825,8.08642
+92,place,rest16_quad_train_17,i / we will never go back to this place again .,1.17,8.67,4.548342,6.1409745,4.158876,5.9618382
+93,thai food,rest16_quad_dev_77,"for authentic thai food , look no further than toons .",7.5,7.38,6.931519,7.389947,7.7312317,7.7945523
+94,bread,rest16_quad_dev_169,"the bread was stale , the salad was overpriced and empty .",3.17,6.33,3.4543972,6.195455,2.8529348,6.533004
+95,grilled salmon dish,rest16_quad_train_1388,"i picked the grilled black cod as my entree , which i absolutely devoured while someone commented that the grilled salmon dish was better .",7.5,7.62,7.236287,7.5850887,7.6483703,7.938918
+96,soy dressing,rest16_quad_test_368,"my party of two was feeling particularly ambitious , and we splurged on the shilshole sampler . . . a beautiful assortment of enormous white gulf prawns , smoked albacore tuna , ray ' s fantastic manila clams seasoned with dill , scallops in a tasty soy dressing , and a tiny pile of dungeness crab atop a sublime butter sauce .",8.0,8.5,7.5277195,7.8763967,7.7178698,7.8469114
+97,smoked yellowtail,rest16_quad_test_204,try the chef ' s choice for sushi as the smoked yellowtail was incredible and the rolls were also tasty .,7.5,7.67,7.85789,8.257571,7.9002376,8.063714
+98,NULL,rest16_quad_dev_43,we had a good time .,6.75,6.62,7.7276835,8.100935,7.3425746,7.2956076
+99,ravioli,rest16_quad_train_889,ravioli was good . . . but i have to say that i found everything a bit overpriced .,6.75,7.0,4.294889,6.047591,5.628382,7.0752287
+100,eggs benedict,rest16_quad_dev_53,"i had their eggs benedict for brunch , which were the worst in my entire life , i tried removing the hollondaise sauce completely that was how failed it was .",1.83,7.67,4.213899,6.110688,2.0750012,7.5288496
+101,restaurant,rest16_quad_dev_158,single worst restaurant in manhattan,2.5,7.0,4.1190834,6.2926908,2.228251,7.641179
+102,NULL,rest16_quad_train_270,"and it all comes at a very reasonable price ( congee , noodles , and rice dishes are no more than $ 3 - 6 each ) .",6.75,6.75,5.674041,6.448791,6.7908235,6.854702
+103,menu,rest16_quad_test_76,the outside patio area has an abbreviated menu .,6.75,7.0,6.2894692,6.9448304,4.7530823,5.4197426
+104,food,rest16_quad_test_234,the food is great and they make a mean bloody mary .,7.5,7.67,7.8398495,8.284498,7.8790107,8.031809
+105,food,rest16_quad_train_1095,gross food – wow -,1.88,8.25,4.462441,6.1451025,2.551962,7.664499
+106,food,rest16_quad_train_520,the food is so cheap and the waiters are nice .,7.75,7.75,7.749266,8.197222,7.529834,7.7495146
+107,NULL,rest16_quad_dev_44,a little overpriced but worth it once you take a bite .,3.88,4.88,4.1823864,6.0096197,3.91377,5.972006
+108,food,rest16_quad_train_68,"however , go for the ambience , and consider the food just a companion for a trip across the world !",4.83,4.83,7.596262,7.8395896,6.7300105,6.8925877
+109,big wong,rest16_quad_dev_104,big wong is a great place to eat and fill your stomach .,7.38,7.62,7.550212,7.975113,7.816528,7.869213
+110,sauce,rest16_quad_train_109,sauce was watery and the food did n ' t have much flavor .,3.17,5.17,3.9821196,6.1028266,4.604346,5.661619
+111,NULL,rest16_quad_train_1295,and even more so unpleasant because it was so costly for such an unpleasant experience .,1.67,8.17,3.69811,6.1458874,2.686068,6.784568
+112,view,rest16_quad_dev_133,the high prices you ' re going to pay is for the view not for the food .,3.0,7.5,3.5976832,6.0401063,4.0492787,5.928938
+113,NULL,rest16_quad_train_151,"told us to sit anywhere , and when we sat he said the table was reserved .",4.83,4.83,3.7103686,6.084961,5.6660066,5.7659626
+114,NULL,rest16_quad_train_40,the last time i walked by it looked pretty empty . hmmm .,5.0,5.38,4.0380483,5.943859,4.4590073,5.893053
+115,restaurant,rest16_quad_train_1237,"this is the most wonderful restaurant in all of new york city , not just brooklyn . . .",8.17,8.17,7.78876,7.9817576,7.9748187,8.143194
+116,outdoor restaurants,rest16_quad_dev_36,it is one the nicest outdoor restaurants i have ever seen in ny - - i am from italy and this place rivals the ones in my country .,8.0,8.12,7.708204,7.8950086,7.8381495,8.120871
+117,NULL,rest16_quad_test_406,i do n ' t know if i ' ll be back . . . .,4.67,5.17,3.9782405,5.997811,4.601581,5.3511868
+118,resturant,rest16_quad_train_403,prices too high for this cramped and unappealing resturant .,2.0,7.83,3.6185842,6.2248435,2.712066,7.056093
+119,bombay beer,rest16_quad_train_293,i started out with a bombay beer which was big enough for two .,7.0,7.0,6.576745,7.1073456,6.9481025,6.963408
+120,service,rest16_quad_test_125,the band was very good and the service was attentive .,7.0,6.83,7.8578253,8.332527,7.4161506,7.606967
+121,service,rest16_quad_test_125,the band was very good and the service was attentive .,7.0,6.83,7.8578253,8.332527,7.554625,7.731637
+122,service,rest16_quad_test_125,the band was very good and the service was attentive .,7.0,6.83,7.870738,8.336438,7.4161506,7.606967
+123,service,rest16_quad_test_125,the band was very good and the service was attentive .,7.0,6.83,7.870738,8.336438,7.554625,7.731637
+124,place,rest16_quad_test_26,i have not a bad thing to say about this place .,7.33,7.17,4.6916504,6.3428245,7.2640166,7.4628367
+125,NULL,rest16_quad_train_706,a little crowded but they move that line really fast !,7.67,7.67,5.469899,6.5189924,5.910992,6.579093
+126,dishes,rest16_quad_train_1250,"for me dishes a little oily , but overall dining experience good .",5.0,5.83,7.4204082,7.7066584,5.4566283,6.2347374
+127,NULL,rest16_quad_test_429,you can order to go if you have to get back to the office too !,5.0,5.0,4.9185286,6.092872,5.654964,5.793044
+128,staff,rest16_quad_train_1165,the wine list was extensive - though the staff did not seem knowledgeable about wine pairings .,4.12,5.38,4.944801,6.3813753,6.0610623,6.8243113
+129,menu,rest16_quad_train_1467,only complaint is the pricing - - i believe it would be more reasonable to pay a dollar less on each item listed on the menu .,4.25,5.25,4.118367,5.9674277,4.2417884,5.9684296
+130,service,rest16_quad_train_802,"also it ' s great to have dinner in a very romantic and comfortable place , the service it ' s just perfect . . . they ' re so frendly that we never want to live the place !",7.38,7.12,7.8202753,8.244933,7.9719467,8.084236
+131,NULL,rest16_quad_train_162,this is one of my favorite restaurants and it is not to be missed .,7.38,7.62,6.91722,7.3803377,7.834342,8.016468
+132,meal,rest16_quad_test_24,"– i will never forget the amazing meal , service , and ambiance i experience at this restaurant .",7.88,7.88,7.8956137,8.280153,7.997689,8.189172
+133,rice,rest16_quad_train_715,"furthermore , the rice had no seasoning , so the sushi was bland and disgusting .",4.0,5.25,3.4640155,6.227668,2.5258334,7.0884824
+134,meal,rest16_quad_test_186,– i have been eating at this place for over 8 years now and i have never had one bad meal .,6.38,7.75,5.4792585,6.448108,6.968272,7.8071356
+135,mirrors,rest16_quad_train_1225,despite the confusing mirrors this will likely be my go - to for modern japanese food for the foreseeable future .,4.25,6.0,5.883888,6.7075996,5.5741796,6.576891
+136,wine list,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",8.0,8.0,7.894958,8.339267,7.9228005,8.045378
+137,wine list,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",8.0,8.0,7.894958,8.339267,7.9378557,8.0541725
+138,wine list,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",8.0,8.0,7.8911605,8.353625,7.9228005,8.045378
+139,wine list,rest16_quad_test_25,"the wine list is incredible and extensive and diverse , the food is all incredible and the staff was all very nice , good at their jobs and cultured .",8.0,8.0,7.8911605,8.353625,7.9378557,8.0541725
+140,restaurant,rest16_quad_train_334,"skip this restaurant , it ' s a big disappointment .",2.25,6.75,4.014204,6.1667843,2.3678715,7.2766027
+141,restaurant,rest16_quad_test_162,"i ca n ' t saybenough good things about this restaurant , and i ca n ' t wait for my next several visits .",6.62,6.62,6.178796,6.7629557,6.848829,7.262588
+142,ingredients,rest16_quad_train_73,"yes , they use fancy ingredients , but even fancy ingredients do n ' t make for good pizza unless someone knows how to get the crust right .",7.0,6.5,4.698558,6.149592,5.658013,6.131119
+143,NULL,rest16_quad_train_1496,"i highly recommend the fish tacos , everything else was ok .",6.67,6.5,7.699243,7.9599457,7.8227057,7.965005
+144,service,rest16_quad_train_386,service was slow had to wait to order and get food although not crowded .,3.0,6.4,3.6985722,6.1683946,4.403582,5.801624
+145,delivery guy,rest16_quad_train_1038,delivery guy sometimes get upset if you do n ' t tip more than 10 % .,3.88,6.12,3.9972987,6.0634966,4.039435,5.8912287
+146,eggs,rest16_quad_train_913,"delicate spices , onions , eggs and a kick - ass roti .",7.67,7.5,7.5515795,7.810249,7.790767,7.9447637
+147,pizza ' s,rest16_quad_test_305,the pizza ' s are thin crust and the menu offers very creative combinations and toppings .,6.5,6.75,7.8212566,8.096997,7.6575556,7.7666597
+148,place,rest16_quad_train_316,"however , i think this place is a good hang out spot .",6.5,6.75,7.869994,8.061258,7.4573913,7.399975
+149,lava cake dessert,rest16_quad_train_64,the lava cake dessert was incredible and i recommend it .,8.0,7.75,7.9246693,8.383544,8.032451,8.129481
+150,NULL,rest16_quad_train_675,"anybody who likes this place must be from a different planet , where greasy , dry and tasteless are complimentary .",2.17,7.33,4.914405,6.264905,4.4379573,6.3780937
+151,food,rest16_quad_dev_110,the food here was mediocre at best .,5.0,5.25,5.780431,6.7767897,3.0818245,6.5630317
+152,service,rest16_quad_test_351,"– mercedes restaurant is so tasty , the service is undeniably awesome !",8.0,7.88,7.935788,8.351003,8.064207,8.241147
+153,grilled chicken special with edamame puree,rest16_quad_train_26,the only thing i moderately enjoyed was their grilled chicken special with edamame puree .,7.25,7.0,7.3470316,7.790508,7.6915374,7.7820644
+154,NULL,rest16_quad_train_418,the prices were cheap compared to the quality of service and food .,6.5,6.5,4.258388,6.112056,6.7329903,6.942073
+155,bottle,rest16_quad_train_724,if you like your music blasted and the system isnt that great and if you want to pay at least 100 dollar bottle minimun then you ' ll love it here .,7.67,7.67,6.9693537,7.301613,6.973968,7.23586
+156,NULL,rest16_quad_train_408,"when you add it all together , it just does n ' t seem worth it to me . . . especially considering the prices .",4.12,4.33,4.5380077,6.0700517,4.038779,5.614889
+157,service,rest16_quad_test_580,- mediocre service / quality,5.12,4.0,3.623702,6.2013307,3.4794493,6.8413467
+158,NULL,rest16_quad_test_567,i probably would n ' t go back though ' cuz i do n ' t know if it ' s worth it .,4.5,5.17,4.194494,5.992941,4.9512553,5.6297407
+159,meals,rest16_quad_train_75,i think i ' ve had some the best meals of my life at minnow .,7.7,7.7,7.851949,8.061928,7.8366013,8.03695
+160,place,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,7.0,7.0,5.0141454,6.3364716,6.2384305,7.363844
+161,place,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,7.0,7.0,5.0141454,6.3364716,5.9993668,7.239441
+162,place,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,7.0,7.0,5.4642773,6.548132,6.2384305,7.363844
+163,place,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,7.0,7.0,5.4642773,6.548132,5.9993668,7.239441
+164,coffee,rest16_quad_test_137,open & cool place with the best pizza and coffee,7.33,7.67,7.8404818,8.15466,7.699958,7.832161
+165,bottle of wine,rest16_quad_train_1481,"while finishing our meals which included a high - end bottle of wine , our son ' s fiance joined us for a glass of wine and dessert .",7.5,7.3,6.613612,7.085273,7.089626,7.0323
+166,food,rest16_quad_train_56,"$ 6 and there is much tasty food , all of it fresh and continually refilled .",7.67,7.67,6.9031606,7.389904,7.7425604,7.76113
+167,chicken tikka masala,rest16_quad_test_85,the chicken curry and chicken tikka masala are my favorite meat dishes .,7.67,7.67,7.8586636,8.066156,7.9050107,8.077581
+168,atmosphere,rest16_quad_train_1051,there is something about their atmosphere that makes me come back nearly every week .,5.67,5.5,6.907826,7.157569,7.6988783,7.74126
+169,trattoria,rest16_quad_train_430,this quaint and romantic trattoria is at the top of my manhattan restaurant list .,7.88,7.88,7.8334374,8.2244625,7.807384,7.940028
+170,sushi,rest16_quad_train_929,"the portion sizes here are huge , and the sushi is good .",7.5,7.5,7.7669005,8.140321,7.6006207,7.758151
+171,chole,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,4.433381,6.1212263,4.296366,7.2267113
+172,chole,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,4.433381,6.1212263,4.198132,7.278224
+173,chole,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,5.017207,6.2305465,4.296366,7.2267113
+174,chole,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,5.017207,6.2305465,4.198132,7.278224
+175,place,rest16_quad_test_14,"nice ambience , but highly overrated place .",2.83,7.17,7.6236615,7.9116907,4.6186895,6.877066
+176,dumplings,rest16_quad_train_1012,we could have made a meal of the yummy dumplings from the dumpling menu .,7.83,7.67,7.771681,7.948842,7.694557,7.752265
+177,NULL,rest16_quad_train_1264,which lets face it . . . . at times it ' s a good thing .,6.67,6.83,6.2093596,6.728425,6.7748027,6.7037244
+178,ambiance,rest16_quad_train_347,the view is breathtaking the service is top notch . . . the ambiance is wonderful .,8.12,8.38,7.9845314,8.361398,8.000879,8.207548
+179,NULL,rest16_quad_dev_1,ca n ' t wait wait for my next visit .,6.75,6.38,6.240222,6.6729946,5.8041883,6.082764
+180,chicken,rest16_quad_train_1307,my chicken was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin .,2.0,7.38,3.5853088,6.1572814,2.3988988,7.3280916
+181,ambience,rest16_quad_test_140,great open and friendly ambience .,7.33,7.17,7.979797,8.378036,7.73469,7.8585296
+182,waitstaff,rest16_quad_train_561,"considering we were the last patrons there and it was after the closing time , the waitstaff did not rush us at all and made us feel comfortable and relaxed .",7.5,7.67,3.7558131,6.1291986,6.25088,6.8232164
+183,decor,rest16_quad_test_112,the staff are friendly and the decor was ethic and colorful .,7.17,7.33,7.8090415,8.15503,7.545159,7.6002316
+184,food,rest16_quad_train_125,it ' s all about the food ! !,6.38,6.5,7.369215,7.766468,7.1921206,7.28306
+185,NULL,rest16_quad_train_1188,best dining experience in the west village !,8.12,8.38,7.706341,8.029571,7.9727864,8.033078
+186,NULL,rest16_quad_train_1345,wretched and retching,3.4,4.5,4.455801,6.195008,2.5536656,7.239815
+187,NULL,rest16_quad_test_60,"endless fun , awesome music , great staff ! ! !",7.5,7.67,7.844536,8.318767,8.030312,8.145332
+188,chef,rest16_quad_dev_28,hats off to the chef .,7.62,7.12,5.681682,6.5759344,7.5008526,7.584175
+189,margaritas,rest16_quad_test_182,"– this is one of my top lunch spots , huge portions , fast service and amazing margaritas ! !",8.5,8.67,7.911589,8.289781,8.077902,8.192871
+190,place,rest16_quad_train_1076,i would never recommend this place to anybody even for a casual dinner .,2.0,8.0,6.818225,7.3164325,5.330958,7.1432557
+191,NULL,rest16_quad_dev_11,it was horrible .,2.38,7.88,4.037437,6.0211396,2.3339398,7.4790707
+192,food,rest16_quad_dev_71,"thalia is a beautiful restaurant with beautiful people serving you , but the food does n ' t quite match up .",3.67,6.5,7.4822845,7.77958,7.166878,7.522455
+193,tuna,rest16_quad_test_35,"rice is too dry , tuna was n ' t so fresh either .",3.0,6.67,3.8342438,6.09015,3.4193912,6.4856567
+194,NULL,rest16_quad_dev_148,"once we finally got a table , despite indicating we wanted an alla carte menu we were pushed into a table that was only price fixed !",5.0,5.0,4.111891,5.920271,5.1763935,5.382054
+195,sandwiches,rest16_quad_train_677,"the sandwiches are dry , tasteless and way overpriced .",3.5,5.0,3.4149094,6.215748,2.2713747,7.2775164
+196,jellyfish,rest16_quad_test_70,"i ' ve had the jellyfish , horse mackerel , blue fin tuna and the sake ikura roll among others , and they were all good .",6.12,6.0,6.6004543,7.1014776,7.0742507,7.126509
+197,NULL,rest16_quad_dev_115,love it .,6.8,6.9,7.801712,8.226697,7.8290534,7.8877788
+198,NULL,rest16_quad_test_451,two thumbs up !,7.0,6.83,6.579191,7.136747,7.455431,7.763588
+199,food,rest16_quad_test_134,"the food is not what it once was ( potions have seriously seen downsizing ) prices have gone up , and the service is the worst i have experienced anywhere ( including mainland europe ) .",3.5,5.0,4.0070677,6.1652937,2.677282,7.332283
+200,NULL,rest16_quad_train_1323,the appetizers we ordered were served quickly - an order of fried oysters and clams were delicious but a tiny portion ( maybe 3 of each ) .,7.0,6.75,6.5505066,7.0384502,7.158077,7.277317
+201,rice,rest16_quad_train_714,the rice was poor quality and was cooked so badly it was hard .,3.33,6.0,4.4025555,6.2475395,2.5631366,7.237595
+202,waiter,rest16_quad_train_641,"immediately after we paid , the waiter took the money and said , okay , you guys are outta here .",4.33,5.17,3.879356,6.203955,5.2034264,5.7870655
+203,NULL,rest16_quad_train_564,i was pleasantly surprised to find this gem in hoboken .,7.2,7.3,6.1387997,6.783099,7.90026,7.858409
+204,NULL,rest16_quad_dev_150,eat at your own risk .,3.7,6.3,3.8991482,6.0746202,4.7715263,5.5011187
+205,rose special roll,rest16_quad_train_197,try the lobster teriyaki and the rose special roll .,5.0,5.0,7.062709,7.3927646,7.150825,7.032607
+206,place,rest16_quad_train_1521,i generally like this place .,6.62,6.62,6.353417,6.860033,7.4055953,7.4606285
+207,crowd,rest16_quad_train_626,"always a nice crowd , but never loud .",7.0,7.0,7.5585346,8.146454,7.0761952,7.3270116
+208,ray ' s,rest16_quad_test_445,– after 12 years in seattle ray ' s rates as the place we always go back to .,6.4,6.3,6.1241026,6.826106,7.0908656,7.0937166
+209,place,rest16_quad_train_451,"this place is pricey , and yes , the food is worth it ; but the service makes you feel like you should be paying a quater of the price .",5.0,5.0,4.3919187,6.1458015,4.692138,5.670498
+210,food,rest16_quad_train_1176,so what you really end up paying for is the restaurant not the food .,5.0,5.0,3.8351598,6.032535,4.7584996,5.3124313
+211,indain food,rest16_quad_test_187,i highly recommend this place to all that want to try indain food for the first time .,8.17,8.0,7.8242636,8.159161,7.8756804,8.040083
+212,NULL,rest16_quad_train_311,and amazingly cheap .,7.3,7.2,6.8142805,7.287669,7.6738114,7.792283
+213,food,rest16_quad_test_167,"brunch at murphy ' s is to die for , my specialty . . . egg white omelet , the food is always freshly prepared .",7.83,8.0,7.716565,8.013089,7.877697,7.9505277
+214,food,rest16_quad_train_487,"just because it ' s cheap does not mean the portions are small or the food is nasty , it is great !",5.67,7.33,5.1052094,6.456587,6.74873,7.930328
+215,food,rest16_quad_test_77,my g / f and i both agreed the food was very mediocre especially considering the price .,5.38,6.25,4.865243,6.30999,2.8786736,7.2182255
+216,service,rest16_quad_dev_163,"the food and service were fine , however the maitre - d was incredibly unwelcoming and arrogant .",6.5,6.33,4.0624876,6.129235,3.9134145,7.2420816
+217,place,rest16_quad_train_1208,it ' s a great place to order from or sit - in .,7.5,7.67,7.503245,7.8076706,7.814472,7.8158503
+218,NULL,rest16_quad_dev_134,not what i would expect for the price and prestige of this location .,4.17,5.5,4.048806,6.057523,4.709706,5.8022428
+219,main course,rest16_quad_train_1167,"however , our main course was wonderful .",7.38,7.25,7.818609,8.341455,7.914053,8.108234
+220,food,rest16_quad_test_385,– i was highly disappointed in the food at pagoda .,2.5,6.8,4.9776354,6.2646117,2.2253544,7.6596165
+221,congee ( rice porridge ),rest16_quad_dev_91,i also recommend the rice dishes or the different varieties of congee ( rice porridge ) .,7.5,7.67,7.419507,7.6082816,7.7326064,7.762934
+222,menu items,rest16_quad_test_237,"all their menu items are a hit , and they serve mimosas .",7.83,8.0,7.8331385,8.206155,7.533376,7.527349
+223,manager,rest16_quad_train_1448,"this is where it really really gets bad : the manager said , there is absolutely nothing we can do , it ' s a matter of taste that she did n ' t like it , and i can not comp it .",3.1,6.5,4.1455097,6.0236697,3.0656064,6.7956724
+224,NULL,rest16_quad_train_657,one of my favorite places in manhattan .,7.5,7.3,7.659486,7.9079313,7.8702464,8.06958
+225,waitress,rest16_quad_train_1527,"the waitress came to check in on us every few minutes , and began to clear the plates while half of us were still eating ( a big pet peeve of mine that happens almost everywhere , so i try to ignore it ) .",3.12,6.88,4.5761814,6.1606503,4.3514347,6.164276
+226,wasabe potatoes,rest16_quad_train_172,the tuna and wasabe potatoes are excellent .,8.12,8.12,7.835125,8.366645,7.8549104,8.047526
+227,back garden sitting area,rest16_quad_train_592,"the back garden sitting area is very pleasant , where you can see their personal herb garden .",7.83,8.0,7.757019,8.18232,7.630873,7.707725
+228,NULL,rest16_quad_dev_145,"i wanted to go there to see if it was worth it and sadly , curiousity got the best of me and i paid dearly for it .",4.5,4.5,6.530396,7.0032663,5.946901,6.697262
+229,family style salad,rest16_quad_train_444,get the pepperoni - yum - and a family style salad .,7.62,7.5,7.658246,7.8206797,7.800098,7.792833
+230,japanese food,rest16_quad_train_1079,overpriced japanese food with mediocre service,3.83,6.0,3.9103014,6.192725,2.7658205,7.1576385
+231,cheesecake,rest16_quad_train_577,i got an excellent piece of cheesecake and we had several other nice pastries .,8.25,8.5,7.776327,8.085329,7.909772,8.087263
+232,NULL,rest16_quad_train_1209,awesome,8.0,8.0,7.754553,8.138475,7.921384,8.0872345
+233,food,rest16_quad_train_25,"the food is very average . . . the thai fusion stuff is a bit too sweet , every thing they serve is too sweet here .",5.12,5.5,4.802199,6.2958155,3.879972,5.7612066
+234,lamb special,rest16_quad_dev_165,i had the lamb special which was perfect .,8.38,8.5,7.914564,8.412254,8.072782,8.162132
+235,NULL,rest16_quad_train_1445,"guess what , i waited for twenty minutes before she came over and when she finally did , she says , ` ` oh well , i wish you would have said something earlier ' ' no apology , nothing .",3.2,6.6,3.7289634,5.9908915,4.6315274,5.6813245
+236,menu,rest16_quad_test_294,"most importantly , we were so excited about the food after seeing the very creative menu .",8.0,8.0,7.7604036,8.184048,7.9448543,8.062585
+237,staff,rest16_quad_train_1065,had no flavor and the staff is rude and not attentive .,2.0,8.5,4.163669,6.260083,2.3669538,7.370471
+238,sushimi cucumber roll,rest16_quad_train_690,try sushimi cucumber roll .,6.0,6.12,7.5960608,7.694682,6.9295607,7.0040646
+239,ambiance,rest16_quad_test_83,the ambiance was a peaceful and relaxing break amongst all the kids running around in downtown disney .,7.67,7.5,7.656451,7.9411674,7.571685,7.584669
+240,NULL,rest16_quad_train_828,all the people that i bring there go back on their own and bring their friends !,5.0,5.0,6.460827,7.0297246,6.874209,6.761804
+241,service,rest16_quad_train_696,the service is awful .,2.12,7.88,4.9502535,6.538965,2.16241,7.6520176
+242,NULL,rest16_quad_train_473,wont come back again for sure !,2.12,6.62,5.058634,6.0735345,3.95713,5.761828
+243,NULL,rest16_quad_train_732,what more can you ask for ?,5.0,5.0,4.7168937,6.036462,7.0999217,7.271014
+244,restaurant,rest16_quad_train_1201,"for a restaurant with such a good reputation and that is usually so packed , there was no reason for such a lack of intelligent customer service .",6.17,6.17,5.862776,6.762945,4.301234,6.3850975
+245,NULL,rest16_quad_train_117,located at the end of a magnificent block .,7.0,7.0,7.506713,7.8006015,7.524137,7.742003
+246,decor,rest16_quad_train_1458,"i ' ll being with a couple of positives : cool decor , good pita and hummus , and grilled octopus that was actually pretty tasty .",6.62,6.38,7.8227844,8.187052,7.6867185,7.7867317
+247,restaurant,rest16_quad_train_1353,"it was n ' t as if this restaurant had any major bragging points before hand , but now it ' s simply repulsive .",2.17,8.17,4.067776,6.1174726,3.109549,7.125436
+248,pancakes,rest16_quad_test_358,the pancakes were certainly inventive but $ 8 . 50 for 3 - 6 ' ' pancakes ( one of them was more like 5 ' ' ) in the pancake flight ( sample of 3 different pancakes ) is well over - priced .,6.17,6.33,5.7250614,6.646986,5.74223,6.6918015
+249,NULL,rest16_quad_train_796,even my indian friend could n ' t believe how good and tasty everything was .,7.17,7.0,5.84778,6.61761,7.4881673,7.8112
+250,service,rest16_quad_test_48,great service,6.9,6.8,7.88317,8.36243,7.9640207,8.159482
+251,mashed yukon potatoes,rest16_quad_train_1375,the farro salad and the mashed yukon potatoes were also extremely tasty .,7.3,7.0,7.5853167,8.086649,7.780856,7.9562006
+252,food,rest16_quad_train_1048,"the waiter was attentive , the food was delicious and the views of the city were great .",7.75,8.0,7.812703,8.380145,7.851477,8.003435
+253,NULL,rest16_quad_test_464,i went there with a friend from out of town . . . and we were both very impressed !,7.1,7.2,6.887823,7.258758,7.8009505,8.173687
+254,portion sizes,rest16_quad_train_497,the food is tasty and portion sizes are appropriate .,7.33,7.67,7.8415956,8.230677,6.9823394,7.0499244
+255,egg custards,rest16_quad_train_767,"a few tips : skip the turnip cake , roast pork buns and egg custards .",3.38,5.12,4.439381,6.185545,4.0926166,5.642059
+256,NULL,rest16_quad_dev_37,it is simply amazing .,8.0,8.0,7.8593197,8.411812,8.077072,8.142893
+257,NULL,rest16_quad_train_862,i have to say that i am pleasantly suprised and i will most likely stop in again if i am in the neighborhood .,8.12,8.25,5.0988245,6.163853,7.305327,7.4219437
+258,proprietor,rest16_quad_train_703,the pizza is delicious and the proprietor is one of the nicest in nyc .,8.0,8.0,7.9111876,8.311012,7.8730407,8.106241
+259,staff,rest16_quad_train_1474,i ' d be horrified if my staff were turning away customers so early and so rudely !,1.0,9.0,3.56653,6.178705,2.4449205,7.651536
+260,waitress,rest16_quad_test_52,"the food was great , the margaritas too but the waitress was too busy being nice to her other larger party than to take better care of my friend and me .",3.17,6.67,7.1999435,7.514058,6.9828277,7.3405623
+261,place,rest16_quad_train_1276,"yes , the place is classy and beautiful , but they most certainly target the uber whealthy not the common joe that wants to go all out every once in a while .",7.17,7.0,5.622548,6.66156,7.515677,7.553888
+262,NULL,rest16_quad_test_397,very disappointed .,3.12,6.75,4.305517,6.031761,2.349747,7.361323
+263,restaurant,rest16_quad_test_494,i went home & looked them up online again where i discovered there is a link for a give away that does n ' t work so emailed the restaurant about the non existent service & deceptive link .,4.33,5.17,4.176657,6.085005,2.6940942,6.6539617
+264,service,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,4.25,5.12,5.0141454,6.3364716,6.2384305,7.363844
+265,service,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,4.25,5.12,5.0141454,6.3364716,5.9993668,7.239441
+266,service,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,4.25,5.12,5.4642773,6.548132,6.2384305,7.363844
+267,service,rest16_quad_test_232,it ' s a great little place with tons of potential to be a neighborhood joint if the service were n ' t so impersonal and corporate - like .,4.25,5.12,5.4642773,6.548132,5.9993668,7.239441
+268,banana chocolate dessert,rest16_quad_train_1218,"they have a delicious banana chocolate dessert , as well as a great green tea tempura .",7.88,8.0,7.858006,8.183282,7.9531946,7.9798436
+269,food,rest16_quad_train_1229,"my mom originally introduced me to this place , but even she ( being indian ) feels the food can be somewhat over the top spicy and far too oily .",3.5,5.62,4.0150776,6.078951,3.620934,6.7459364
+270,NULL,rest16_quad_train_95,they refuse to seat parties of 3 or more on weekends .,3.88,4.38,4.2121468,6.120323,4.038378,5.708274
+271,food,rest16_quad_dev_135,the food was ok and fair nothing to go crazy .,5.62,5.5,4.522055,6.2412357,6.405665,6.502084
+272,kafta plate,rest16_quad_test_147,i had the kafta plate and i enjoyed it .,7.25,7.38,7.8572206,8.2339525,7.8218956,8.021335
+273,seating,rest16_quad_train_1172,"short and sweet – seating is great : it ' s romantic , cozy and private .",7.67,7.67,7.915818,8.402626,7.86851,7.8952775
+274,pork belly,rest16_quad_train_199,"food was very good as well , considering that we tried the budget selection ( though i wish the pork belly that i ordered was roasted a bit longer , so that fat was more of a melt - in - your - mouth experience ) .",5.17,4.83,6.4395065,7.0278378,7.3360925,7.473212
+275,beverage selections,rest16_quad_train_691,"good spreads , great beverage selections and bagels really tasty .",7.5,7.33,7.8874106,8.395978,7.91517,8.037656
+276,mioposto,rest16_quad_test_20,– i highly recommend mioposto .,7.5,7.25,7.680499,8.076567,7.992521,8.21731
+277,mozzarella,rest16_quad_train_180,"the pizza is delicious - they use fresh mozzarella instead of the cheap , frozen , shredded cheese common to most pizzaria ' s .",7.38,7.38,7.605135,7.8378263,7.5763483,7.728611
+278,portions,rest16_quad_train_4,the food was lousy - too sweet or too salty and the portions tiny .,3.17,6.67,3.4056687,6.135662,2.6432006,6.878371
+279,service,rest16_quad_train_550,"excellent atmosphere , delicious dishes good and friendly service .",7.75,7.5,7.9499593,8.389647,7.9195485,8.012201
+280,NULL,rest16_quad_test_581,to their credit they removed the dish from the check ; but no manager stopped by to ask what the problem was .,4.25,6.0,3.6721122,6.1176105,4.671425,5.415056
+281,NULL,rest16_quad_train_385,went there with my wife and we had to wait for a table even though you could see there many that were empty with not reservation sigh on them .,4.33,5.17,4.467777,6.006119,4.5815206,5.5348105
+282,outdoor seating,rest16_quad_train_927,"we recently decided to try this location , and to our delight , they have outdoor seating , perfect since i had my yorkie with me .",7.75,7.75,7.8327246,8.113291,7.809862,7.8698826
+283,pizza,rest16_quad_train_106,but the pizza is way to expensive .,3.0,6.83,3.8238053,6.1747293,3.2440288,6.166652
+284,place,rest16_quad_train_28,"the decor is night tho . . . but they really need to clean that vent in the ceiling . . . its quite un - appetizing , and kills your effort to make this place look sleek and modern .",7.5,8.0,5.385784,6.4236846,4.7572837,6.946495
+285,wine list,rest16_quad_train_323,"the tables are crammed way too close , the menu is typical of any italian restaurant , and the wine list is simply overpriced .",3.5,5.5,3.922878,6.133446,3.4700408,6.274601
+286,waiter,rest16_quad_train_1174,the service was extremely fast and attentive ( thanks to the service button on your table ) but i barely understood 1 word when the waiter took our order .,6.67,6.5,5.9763603,6.8019247,6.9610243,7.449853
+287,spot,rest16_quad_test_461,a cozy spot for 2,7.17,7.33,7.804323,8.165812,7.719195,7.7488017
+288,stir fry blue crab,rest16_quad_train_519,"i recommend the jelly fish , drunken chicken and the soupy dumplings , certainly the stir fry blue crab .",7.25,7.38,7.428445,7.692614,7.7715707,7.870559
+289,NULL,rest16_quad_train_1463,the decor however seems to be the distraction so you wo n ' t notice that you just payed 300 bucks for some cold eggplant that took 2 frickin hours to come ! ! ! !,4.33,5.67,3.5889668,6.117762,4.248041,6.2739096
+290,NULL,rest16_quad_train_256,on a hot day it was fabulous to stop in and enjoy lunch .,7.3,7.1,7.4251404,7.728486,7.7498455,7.812582
+291,food,rest16_quad_train_67,"the food was average to above - average ; the french onion soup filling yet not overly impressive , and the desserts not brilliant in any way .",5.5,5.25,5.38105,6.512232,4.79785,6.195172
+292,food,rest16_quad_train_1329,"everyone seemed generally happy with their food , except my brother who had the grilled mahi mahi , seemingly drenched in grapfruit juice !",6.75,7.0,5.4416027,6.539701,5.3000793,6.900474
+293,NULL,rest16_quad_test_413,just go there and see for yourself .,5.0,5.0,5.672821,6.411192,5.9361086,5.983752
+294,NULL,rest16_quad_train_252,too large for just two people but nothing was left .,5.5,6.12,3.751047,6.1335073,4.4814925,5.4377146
+295,food,rest16_quad_train_1075,"very immature bartender , didnt know how to make specific drinks , service was so slowwwww , the food was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers .",2.12,7.38,3.7756495,6.1745467,2.6972,7.278591
+296,atmosphere,rest16_quad_test_33,i liked the atmosphere very much but the food was not worth the price .,6.5,6.25,6.132322,6.897702,5.6115136,6.8819675
+297,waiter,rest16_quad_dev_151,the service was spectacular as the waiter knew everything about the menu and his recommendations were amazing !,8.0,8.0,7.877264,8.386165,8.000988,8.180143
+298,french fries,rest16_quad_train_594,"my husband said he could ' ve eaten several more , the portion was fine for me he even exclaimed that the french fries were the best he has had .",7.83,8.0,5.336382,6.414697,7.370194,7.517496
+299,NULL,rest16_quad_dev_67,fresh ingredients and everything is made to order .,5.25,5.12,7.574966,7.8904243,7.4155517,7.532258
+300,waiter,rest16_quad_train_1303,we also asked for hooka six times and the waiter kept telling us one minute and never returning with the hooka .,4.0,5.0,4.5126896,6.23451,4.172111,6.0033875
+301,waiter,rest16_quad_test_438,"we did have the same waiter the second time , so maybe the service is spotty and our luck is good .",6.38,6.38,4.955659,6.3894825,5.6480374,6.0943995
+302,NULL,rest16_quad_train_19,"service was devine , oysters where a sensual as they come , and the price ca n ' t be beat ! ! !",6.5,6.5,6.555971,7.0440826,7.8464713,8.069676
+303,NULL,rest16_quad_test_427,and they packaged everything nicely so it did n ' t spill .,6.6,6.7,4.575348,6.025483,6.077968,6.261976
+304,parmesean porcini souffle,rest16_quad_train_432,"whether it ' s the parmesean porcini souffle or the lamb glazed with balsamic vinegar , you will surely be transported to northern italy with one bite .",5.67,5.5,5.4066753,6.5243764,6.6046596,6.66925
+305,portions,rest16_quad_train_937,the portions are small but being that the food was so good makes up for that .,4.62,5.62,5.219945,6.4348016,5.8677793,6.1872873
+306,chicken,rest16_quad_train_877,"stick with the chicken , beef , and lamb dishes .",6.5,6.38,5.993448,6.830554,6.3259163,6.2926865
+307,band,rest16_quad_test_125,the band was very good and the service was attentive .,7.5,7.17,7.8578253,8.332527,7.4161506,7.606967
+308,band,rest16_quad_test_125,the band was very good and the service was attentive .,7.5,7.17,7.8578253,8.332527,7.554625,7.731637
+309,band,rest16_quad_test_125,the band was very good and the service was attentive .,7.5,7.17,7.870738,8.336438,7.4161506,7.606967
+310,band,rest16_quad_test_125,the band was very good and the service was attentive .,7.5,7.17,7.870738,8.336438,7.554625,7.731637
+311,NULL,rest16_quad_train_452,save yourself the time and trouble and skip this one !,4.67,4.67,4.3135386,6.074632,4.7031426,5.724473
+312,food,rest16_quad_dev_22,the food options rule .,5.5,5.25,5.935153,6.7840714,5.6522098,5.7841926
+313,NULL,rest16_quad_test_525,always good .,7.0,6.8,7.746593,8.350273,7.4687557,7.544015
+314,dishes,rest16_quad_train_617,she was very helpful in suggesting us drinks and helped us in ordering a lot of good dishes since we knew nothing about indian food .,6.67,6.83,7.116295,7.440935,7.088701,7.4176893
+315,space,rest16_quad_train_1522,the design of the space is good .,6.75,6.88,7.623224,8.08352,6.9372144,7.01723
+316,NULL,rest16_quad_train_711,the worst excuse for japanese food i ' ve ever encountered .,2.5,7.12,3.6264858,6.164398,2.426862,7.62039
+317,restaurant,rest16_quad_train_471,not sure why this restaurant would be rated that highly .,4.5,4.38,5.802267,6.7428503,5.5822887,6.0390854
+318,NULL,rest16_quad_train_493,they have authentic indian at amazing prices .,8.12,8.0,7.8294573,8.072619,7.958837,7.9761586
+319,servers,rest16_quad_test_288,but the servers were extremely attentive and very friendly .,7.88,7.88,7.8950014,8.330557,7.792783,8.06299
+320,drinks,rest16_quad_test_269,"– great drinks , corn beef hash , coffee , b fast burritos , gluten free menu .",7.5,7.75,7.8629084,8.025392,7.6793156,7.7771206
+321,white organza tent,rest16_quad_train_1355,i book a gorgeous white organza tent which included a four course prix fix menu which we enjoyed a lot .,7.75,7.75,7.807264,8.243075,7.9147897,8.049195
+322,patis,rest16_quad_train_285,and where does patis go wrong ; no where .,8.17,8.0,4.1822853,6.1670938,3.6540039,6.2422037
+323,NULL,rest16_quad_train_1396,"they are extremely rude , not even apologizing for the horrible service we got and handing us a bill well over $ 500 for some drinks adn their pita bread !",2.38,7.38,3.4802368,6.110754,2.4910295,7.593397
+324,service,rest16_quad_dev_55,the service was attentive .,7.33,7.67,7.7996764,8.168564,7.3865952,7.6337833
+325,NULL,rest16_quad_train_239,okay - i do n ' t mind the oily part ( cause most are cooked that way ) but it was way too bland .,3.75,5.75,3.9921021,5.882681,3.669263,6.2722526
+326,wine selection,rest16_quad_train_138,"great wine selection , gigondas is worth the price , and the house champagne is a great value .",7.25,7.5,7.866239,8.333577,7.957977,8.026033
+327,place,rest16_quad_test_328,it ' s a tiny place so if you get there before 8pm on a weekend ( thurs ? sun ) you will find it easier to get a table or a seat at the sushi bar .,6.38,6.5,5.6936083,6.504302,5.776598,6.0862474
+328,food,rest16_quad_dev_27,fresh restaurant was amazing . . . . . . . . food was delicious and of course fresh .,7.38,7.0,7.9512477,8.267947,7.9628377,8.021026
+329,steak,rest16_quad_test_285,"though , one thing i realized later on was that the restaurant either used msg or a meat tenderizer on the steak .",5.0,5.0,3.8712144,6.039568,5.020295,5.7163525
+330,service,rest16_quad_train_891,"service , however , was excellent . . . and i liked the setting / atmosphere a lot .",7.83,7.83,7.788553,8.261218,7.7608476,7.9725666
+331,location,rest16_quad_test_209,the only positive thing about mioposto is the nice location .,7.62,7.88,4.91251,6.306388,7.127107,7.4677978
+332,place,rest16_quad_train_738,the place was quiet and delightful .,7.5,7.12,7.8576694,8.323082,7.6543016,7.843091
+333,sauces,rest16_quad_train_885,"the food was not fresh , the sauces were bland and very oily .",3.33,5.33,3.925058,6.2000666,3.3711092,6.587525
+334,chinese restaurant,rest16_quad_train_778,finally a reliable chinese restaurant !,7.75,7.88,7.470748,7.7128463,7.9328694,7.9942436
+335,service,rest16_quad_train_1365,the real problem i had with this place was the complete lack of service .,3.62,5.5,3.634303,6.227741,3.173325,6.740188
+336,spot,rest16_quad_test_168,it ' s the perfect spot for a romantic date for 2 or a secret rendezvous !,7.75,8.0,7.774465,8.337535,7.893404,7.9062157
+337,indian food,rest16_quad_train_1337,"very ` ` normal indian food ' ' , but done really well .",5.83,5.33,7.249213,7.6044273,7.1680346,7.1784363
+338,faan,rest16_quad_train_895,faan is sooo good .,6.62,6.5,7.7664695,8.161055,7.8308387,8.092432
+339,people,rest16_quad_dev_95,people are always friendly .,6.5,6.75,7.8760614,8.22557,7.6616626,7.826595
+340,food,rest16_quad_train_1112,food was ok .,5.5,5.38,4.6182356,6.289871,6.200127,6.201888
