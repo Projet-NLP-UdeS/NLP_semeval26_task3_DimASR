@@ -10,21 +10,21 @@ models:
   #   dropout: 0.2
   #   max_len: 64
 
-  # - name: distilbert-base-uncased-finetuned-sst-2-english
-  #   nickname: baby_bert
-  #   type: transformer
-  #   lr: 2e-5
-  #   epochs: 4
-  #   batch_size: 32
-  #   dropout: 0.1
+  - name: distilbert-base-uncased-finetuned-sst-2-english
+    nickname: baby_bert
+    type: transformer
+    lr: 2e-5
+    epochs: 4
+    batch_size: 32
+    dropout: 0.1
 
-  # - name: bert-base-multilingual-cased
-  #   nickname: bert_base
-  #   type: transformer
-  #   lr: 2e-5
-  #   epochs: 4
-  #   batch_size: 32
-  #   dropout: 0.1
+  - name: bert-base-multilingual-cased
+    nickname: bert_base
+    type: transformer
+    lr: 2e-5
+    epochs: 4
+    batch_size: 32
+    dropout: 0.1
 
   - name: microsoft/deberta-v3-base
     nickname: deberta_base
