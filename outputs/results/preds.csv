@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_rapid_tests_valence,baby_bert_rapid_tests_arousal
-0,service,rest16_quad_test_218,"the food was ok , but the service was so poor that the food was cold buy the time everyone in my party was served .",3.5,5.5,4.609118,5.502949
-1,food,rest16_quad_train_1407,"price is high but the food is good , so i would come back again .",7.38,7.5,5.5805545,6.108253
-2,bread,rest16_quad_train_1166,the bread we received was horrible - rock hard and cold - and the ` ` free ' ' appetizer of olives was disappointing .,1.67,8.67,4.144009,5.0521526
-3,japanese tapas,rest16_quad_train_955,consistently good japanese tapas .,7.38,7.5,5.583844,5.896074
-4,appetizer,rest16_quad_test_339,"the appetizer was interesting , but the creme brulee was very savory and delicious .",6.83,7.0,5.6628337,6.094585
-5,dessert,rest16_quad_train_1082,i was looking for banana tempura for dessert and they dont have .,4.83,5.17,5.2615714,5.9381003
-6,NULL,rest16_quad_train_314,we were very disappointed .,2.6,5.9,5.037519,5.5356517
-7,portion sizes,rest16_quad_train_929,"the portion sizes here are huge , and the sushi is good .",7.88,7.88,5.5273004,6.056227
-8,steak,rest16_quad_test_283,the steak was done to my exact liking ( medium rare ) and was nice and juicy .,8.0,8.0,5.7415357,6.1392903
-9,chole,rest16_quad_train_59,"i like the somosas , chai , and the chole , but the dhosas and dhal were kinda disappointing .",7.25,7.25,4.7034736,5.529658
+0,italian restaurant,adj_aug_01772,i am so happy to have a fantastic italian restaurant in my neighborhood .,7.75,7.88,5.663254,5.712569
+1,salad,adj_aug_04091,by far the foremost salad i have had in a fast food restaurant .,7.8,7.9,5.768709,6.0136423
+2,food,adj_aug_04331,"the food is spectacular , and the waiting staff has been perfect every single time we ' ve been there .",7.75,7.62,5.6750116,6.0850973
+3,service,adj_aug_02508,an superb service,7.88,7.75,5.4682217,5.2458286
+4,place,adj_aug_04377,this place is remarkably much fun .,7.62,7.62,5.592453,5.595781
+5,NULL,adj_aug_01682,never too crowded and always superb service .,7.38,7.88,5.8162394,5.7873573
+6,restaurant,adj_aug_03680,"on a recent sunday afternoon , a friend and i accidently found this superb restaurant on our way to see the pulitzer prize winning play doubt .",6.62,6.62,5.7013164,6.137864
+7,sushi,adj_aug_00478,"worthwhile sushi , high price",7.33,7.17,5.8392572,5.999589
+8,jazz duo,rest16_quad_train_951,"whoever the jazz duo was , they were on point .",7.0,7.0,4.953142,5.9607353
+9,NULL,adj_aug_04096,"creative , consistent , wholesome .",8.12,8.25,5.508711,5.7019014
