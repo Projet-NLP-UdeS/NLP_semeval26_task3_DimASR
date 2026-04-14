@@ -1,11 +1,11 @@
-,Aspect,ID,Text,Valence,Arousal,baby_bert_rapid_tests_valence,baby_bert_rapid_tests_arousal
-0,red eye,rest16_quad_train_208,i have never been disappointed in the red eye .,7.12,7.12,0.4454591,0.62021947
-1,dishes,rest16_quad_train_1250,"for me dishes a little oily , but overall dining experience good .",5.0,5.83,0.40515375,0.70908254
-2,manila clams,rest16_quad_test_368,"my party of two was feeling particularly ambitious , and we splurged on the shilshole sampler . . . a beautiful assortment of enormous white gulf prawns , smoked albacore tuna , ray ' s fantastic manila clams seasoned with dill , scallops in a tasty soy dressing , and a tiny pile of dungeness crab atop a sublime butter sauce .",7.5,8.5,0.59207207,0.5305913
-3,meal,rest16_quad_test_24,"– i will never forget the amazing meal , service , and ambiance i experience at this restaurant .",7.88,7.88,0.37325978,0.8719649
-4,NULL,rest16_quad_test_411,been there lots since and its always a good time .,6.62,6.62,0.36643064,0.6974805
-5,lobster bisque,rest16_quad_train_350,my boyfriend had the new england chowder it was good but i think the award should go to the lobster bisque .,7.88,8.25,0.6176733,0.44413334
-6,NULL,rest16_quad_train_789,but that is highly forgivable .,6.88,7.38,0.24983439,0.64588606
-7,NULL,rest16_quad_train_1115,remind me of home .,5.38,5.12,0.15953103,0.71172404
-8,dogs,rest16_quad_train_1184,amazing fresh dogs but best of all endless toppings ! ! !,8.17,8.33,0.5134352,0.80155003
-9,NULL,rest16_quad_train_1395,we never ate because by close to 2 in the monring we were not served and were too upset ad tired to start eating .,2.83,5.12,0.1675418,0.023060303
+,Aspect,ID,Text,Valence,Arousal,baby_bert_valence,baby_bert_arousal,bert_base_valence,bert_base_arousal,deberta_base_valence,deberta_base_arousal,roberta_base_valence,roberta_base_arousal
+0,service,backtrans_aug_02833,somehow working the Italian charm with constant mille grazie is not a proper service.,3.2,5.6,3.6099057,6.8812265,6.0877433,6.8902564,4.876384,6.8011193,3.677165,5.49443
+1,NULL,pos_aug_03698,"while i can had done without the youth who shared the evening with us , our wonderful server and food made the experience one very positive one .",8.0,8.0,7.192074,7.1028786,7.1763916,7.341918,4.5232377,6.6056204,4.5081873,5.9375987
+2,milk fish,rest16_quad_test_198,"your a sushi fan , you love expertly cut fish , great sake , a killer soho location , and of course : salmon , tuna , fluke , yellow tail , cod , mackeral , jellyfish , sea urchin , shrimp , lobster , sea bream , trout , milk fish , blue fin tuna , eel , crab , sardine , monk fish , roe , scallop , oysters , and a varity of toro .",6.0,6.0,6.996773,6.961702,7.2250967,6.888761,4.675231,6.835911,5.7089467,6.046251
+3,NULL,pos_aug_04630,unless you were just stopping at for one few drinks i would n ' t recommend going here .,3.17,5.17,4.308148,5.2038183,2.654089,5.9661155,4.578622,6.3970203,3.7902808,5.663988
+4,restaurant,pos_aug_03640,"i have never left one restaurant feeling as if i is abused , and wasted my hard earned cash .",1.5,8.5,3.411421,6.640408,3.4332564,6.279706,4.6799417,6.4655147,3.3107584,5.5751653
+5,ambient,backtrans_aug_02959,very affordable and excellent environment !,8.17,8.33,7.187407,7.0243015,7.381724,7.436176,6.167143,7.236427,6.025752,6.54301
+6,baluchi ' s,pos_aug_00447,baluchi ' s has solid food and one nice decor in reasonable prices .,7.33,7.33,7.2239532,7.1295133,7.5857654,7.3618426,5.5569797,7.0878406,6.0211167,6.4662833
+7,NULL,backtrans_aug_00748,"in fact, many want to return a second time during their visit.",6.0,5.62,4.3977385,5.456284,4.2936587,5.798154,4.4598236,6.5046306,3.6216478,5.7301116
+8,fish,rest16_quad_train_18,"went on a 3 day oyster binge , with fish bringing up the closing , and i am so glad this was the place it o trip ended , because it was so great !",7.67,7.83,6.6521673,6.8220763,6.8766003,7.044023,4.4779177,6.5540648,5.1031604,6.0235147
+9,vibe,pos_aug_04763,"there was one really nice vibe concerning this place . . . good music , atmosphere and happy looking people .",7.33,7.5,7.437107,7.173077,7.564943,7.4271407,5.0332365,6.922744,5.7471824,6.4321413

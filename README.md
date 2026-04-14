@@ -1,11 +1,14 @@
 # Dimensiomal Aspect-Based Sentiment Analysis
-*Refactoring requires the use of `git mv` for continuity*
-*Using English for documentation, comments, etc, French for the rest*
+
+*Refactoring requires the use of `git mv` for continuity.*
+
+*Using English for documentation, comments, etc, French for the rest.*
 
 #### TODO
-- How are hugging face iterations computed? (more control over quick train)
-- Save checkpoints during LoRA fine-tuning (2 tasks)
-- Save outputs fron Google Collab
+- [ ] Log training resources 
+- [ ] Log max_len tokenizer process
+- [ ] Stack predictions
+- [ ] Check BERT wasn't augmented
 
 ## Machine Learning
 
