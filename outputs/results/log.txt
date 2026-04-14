@@ -2241,3 +2241,231 @@ HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-
 
 2026-04-14 03:28:33,310 | INFO | - average_ensemble : PCC_V = 0.2488 | PCC_A = -0.4876 | RMSE_V = 0.8034 | RMSE_A = 0.6179| RMSE_VA = 0.7167 
 
+2026-04-14 03:34:05,669 | INFO | This shows in notebook and goes to file 
+
+2026-04-14 03:34:05,672 | INFO | Will be using cuda device. 
+
+2026-04-14 03:34:05,673 | INFO | Will be using a lighter training configuration, not suitable for final results. 
+
+2026-04-14 03:34:05,789 | INFO | Will be using local augmented dataset 
+
+2026-04-14 03:34:06,037 | INFO | [
+  {
+    "name": "distilbert-base-uncased-finetuned-sst-2-english",
+    "nickname": "baby_bert",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 4,
+    "batch_size": 32,
+    "dropout": 0.1
+  },
+  {
+    "name": "bert-base-multilingual-cased",
+    "nickname": "bert_base",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 4,
+    "batch_size": 32,
+    "dropout": 0.1
+  },
+  {
+    "name": "microsoft/deberta-v3-base",
+    "nickname": "deberta_base",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 4,
+    "batch_size": 32,
+    "dropout": 0.1,
+    "max_len": 128
+  },
+  {
+    "name": "FacebookAI/roberta-base",
+    "nickname": "roberta_base",
+    "type": "transformer",
+    "lr": "2e-5",
+    "epochs": 4,
+    "batch_size": 16,
+    "dropout": 0.1
+  }
+] 
+
+2026-04-14 03:34:09,591 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:34:09,592 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads. 
+
+2026-04-14 03:34:09,721 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:34:09,835 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:34:09,939 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:34:10,093 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:34:10,204 | INFO | HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased-finetuned-sst-2-english/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-14 03:34:10,221 | INFO | Current maximum token length is 512 
+
+2026-04-14 03:34:10,348 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:34:10,788 | INFO | HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:34:12,450 | INFO | Epoch 1/4 | Train Loss: 15.4306 | Val Loss: 2.4847 
+
+2026-04-14 03:34:21,761 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/baby_bert_1_4_last.pt 
+
+2026-04-14 03:34:22,793 | INFO | Epoch 2/4 | Train Loss: 2.3978 | Val Loss: 2.7795 
+
+2026-04-14 03:34:48,763 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/baby_bert_2_4_last.pt 
+
+2026-04-14 03:34:49,812 | INFO | Epoch 3/4 | Train Loss: 2.1671 | Val Loss: 1.9136 
+
+2026-04-14 03:35:00,899 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/baby_bert_3_4_last.pt 
+
+2026-04-14 03:35:01,937 | INFO | Epoch 4/4 | Train Loss: 1.7517 | Val Loss: 1.8640 
+
+2026-04-14 03:35:12,127 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/baby_bert_4_4_last.pt 
+
+2026-04-14 03:35:12,336 | INFO | HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:12,436 | INFO | HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:12,529 | INFO | HTTP Request: GET https://huggingface.co/api/models/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:35:12,648 | INFO | HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-multilingual-cased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:35:12,735 | INFO | HTTP Request: GET https://huggingface.co/api/models/bert-base-multilingual-cased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:35:12,835 | INFO | HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-multilingual-cased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:13,215 | INFO | HTTP Request: GET https://huggingface.co/api/models/bert-base-multilingual-cased "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:35:13,314 | INFO | HTTP Request: GET https://huggingface.co/api/models/google-bert/bert-base-multilingual-cased "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:13,319 | INFO | Current maximum token length is 512 
+
+2026-04-14 03:35:13,415 | INFO | HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:13,524 | INFO | HTTP Request: HEAD https://huggingface.co/bert-base-multilingual-cased/resolve/main/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:35:15,935 | INFO | Epoch 1/4 | Train Loss: 7.1840 | Val Loss: 2.8308 
+
+2026-04-14 03:35:49,604 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/bert_base_1_4_last.pt 
+
+2026-04-14 03:35:51,664 | INFO | Epoch 2/4 | Train Loss: 2.5087 | Val Loss: 1.5876 
+
+2026-04-14 03:36:31,661 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/bert_base_2_4_last.pt 
+
+2026-04-14 03:36:33,725 | INFO | Epoch 3/4 | Train Loss: 2.1675 | Val Loss: 1.5137 
+
+2026-04-14 03:37:08,360 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/bert_base_3_4_last.pt 
+
+2026-04-14 03:37:10,432 | INFO | Epoch 4/4 | Train Loss: 1.8862 | Val Loss: 1.4159 
+
+2026-04-14 03:37:48,627 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/bert_base_4_4_last.pt 
+
+2026-04-14 03:37:48,926 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:37:48,948 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-base/8ccc9b6f36199bec6961081d44eb72fb3f7353f3/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:49,053 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:37:49,073 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-base/8ccc9b6f36199bec6961081d44eb72fb3f7353f3/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:49,179 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:37:49,426 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:49,768 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:49,770 | INFO | Current maximum token length is 128 
+
+2026-04-14 03:37:49,912 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:37:49,945 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-base/8ccc9b6f36199bec6961081d44eb72fb3f7353f3/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:50,077 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:37:50,098 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-v3-base/8ccc9b6f36199bec6961081d44eb72fb3f7353f3/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:50,249 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/main/model.safetensors "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:37:50,427 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:50,712 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base/commits/main "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:50,887 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base/discussions?p=0 "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:51,010 | INFO | HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-v3-base/commits/refs%2Fpr%2F14 "HTTP/1.1 200 OK" 
+
+2026-04-14 03:37:51,139 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/refs%2Fpr%2F14/model.safetensors.index.json "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:37:51,294 | INFO | HTTP Request: HEAD https://huggingface.co/microsoft/deberta-v3-base/resolve/refs%2Fpr%2F14/model.safetensors "HTTP/1.1 302 Found" 
+
+2026-04-14 03:37:54,292 | INFO | Epoch 1/4 | Train Loss: 6.1836 | Val Loss: 1.9845 
+
+2026-04-14 03:38:39,605 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/deberta_base_1_4_last.pt 
+
+2026-04-14 03:38:43,014 | INFO | Epoch 2/4 | Train Loss: 2.6828 | Val Loss: 1.7952 
+
+2026-04-14 03:39:11,412 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/deberta_base_2_4_last.pt 
+
+2026-04-14 03:39:14,844 | INFO | Epoch 3/4 | Train Loss: 2.5658 | Val Loss: 1.7043 
+
+2026-04-14 03:40:01,041 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/deberta_base_3_4_last.pt 
+
+2026-04-14 03:40:04,359 | INFO | Epoch 4/4 | Train Loss: 2.4431 | Val Loss: 1.9105 
+
+2026-04-14 03:40:31,715 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/deberta_base_4_4_last.pt 
+
+2026-04-14 03:40:32,132 | INFO | HTTP Request: HEAD https://huggingface.co/FacebookAI/roberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:40:32,153 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/FacebookAI/roberta-base/e2da8e2f811d1448a5b465c236feacd80ffbac7b/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:40:32,255 | INFO | HTTP Request: HEAD https://huggingface.co/FacebookAI/roberta-base/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:40:32,276 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/FacebookAI/roberta-base/e2da8e2f811d1448a5b465c236feacd80ffbac7b/tokenizer_config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:40:32,383 | INFO | HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-base/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found" 
+
+2026-04-14 03:40:32,490 | INFO | HTTP Request: GET https://huggingface.co/api/models/FacebookAI/roberta-base/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK" 
+
+2026-04-14 03:40:32,655 | INFO | Current maximum token length is 512 
+
+2026-04-14 03:40:32,826 | INFO | HTTP Request: HEAD https://huggingface.co/FacebookAI/roberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:40:32,852 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/FacebookAI/roberta-base/e2da8e2f811d1448a5b465c236feacd80ffbac7b/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:40:32,970 | INFO | HTTP Request: HEAD https://huggingface.co/FacebookAI/roberta-base/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect" 
+
+2026-04-14 03:40:32,989 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/FacebookAI/roberta-base/e2da8e2f811d1448a5b465c236feacd80ffbac7b/config.json "HTTP/1.1 200 OK" 
+
+2026-04-14 03:40:35,198 | INFO | Epoch 1/4 | Train Loss: 8.4060 | Val Loss: 1.7648 
+
+2026-04-14 03:40:52,986 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/roberta_base_1_4_last.pt 
+
+2026-04-14 03:40:54,889 | INFO | Epoch 2/4 | Train Loss: 2.4988 | Val Loss: 2.1435 
+
+2026-04-14 03:41:14,202 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/roberta_base_2_4_last.pt 
+
+2026-04-14 03:41:16,133 | INFO | Epoch 3/4 | Train Loss: 2.1787 | Val Loss: 1.3617 
+
+2026-04-14 03:41:52,591 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/roberta_base_3_4_last.pt 
+
+2026-04-14 03:41:54,494 | INFO | Epoch 4/4 | Train Loss: 1.4742 | Val Loss: 0.7746 
+
+2026-04-14 03:41:57,552 | INFO | Checkpoint saved: /content/drive/MyDrive/UdS-IFT714-checkpoints/roberta_base_4_4_last.pt 
+
+2026-04-14 03:41:57,702 | INFO | Récapitulatif des résultats: 
+
+2026-04-14 03:41:57,702 | INFO | Running in Colab with cuda device... 
+
+2026-04-14 03:41:57,703 | INFO | - baby_bert : PCC_V = 0.6593 | PCC_A = 0.0995 | RMSE_V = 1.4338 | RMSE_A = 1.2931| RMSE_VA = 1.3653 
+
+2026-04-14 03:41:57,704 | INFO | - bert_base : PCC_V = 0.6207 | PCC_A = 0.4321 | RMSE_V = 1.2573 | RMSE_A = 1.1185| RMSE_VA = 1.1899 
+
+2026-04-14 03:41:57,704 | INFO | - deberta_base : PCC_V = -0.1051 | PCC_A = -0.0619 | RMSE_V = 1.5463 | RMSE_A = 1.1957| RMSE_VA = 1.3822 
+
+2026-04-14 03:41:57,704 | INFO | - roberta_base : PCC_V = 0.8740 | PCC_A = 0.7880 | RMSE_V = 0.8329 | RMSE_A = 0.9249| RMSE_VA = 0.8801 
+
+2026-04-14 03:41:57,704 | INFO | - average_ensemble : PCC_V = 0.8765 | PCC_A = 0.6066 | RMSE_V = 1.0999 | RMSE_A = 1.0648| RMSE_VA = 1.0825 
+

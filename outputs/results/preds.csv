@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_valence,baby_bert_arousal,bert_base_valence,bert_base_arousal,deberta_base_valence,deberta_base_arousal,roberta_base_valence,roberta_base_arousal
-0,casimir,adj_aug_01111,i have been to casimir over 5 times and i have always had a superb time there .,7.83,7.83,7.206385,6.8645926,6.992061,7.3112674,6.890962,7.595998,7.590445,7.4153666
-1,pastis,adj_aug_00069,and evaluated on those terms pastis is simply enchanting .,8.0,7.88,6.420051,7.115624,6.8551497,7.4442425,6.7964725,7.556117,7.408508,7.2657027
-2,staff,rest16_quad_train_87,"my wife and i always enjoy the young , not always well trained but nevertheless friendly , staff , all of whom have a story .",7.62,7.75,7.210937,6.474384,6.712831,7.3473506,6.8364477,7.531034,7.3025036,7.3838253
-3,food,adj_aug_01839,superb food and the prices are very reasonable .,7.33,7.5,7.2403035,6.8711987,6.7785983,7.3968825,6.821559,7.5290213,7.5712266,7.454314
-4,egg white omelet,adj_aug_03721,"brunch at murphy ' s is to die for , my specialty . . . egg white omelet , the food is reliably freshly prepared .",7.83,8.0,6.5642295,7.2005935,6.874641,7.373696,6.8078423,7.536478,7.4682865,7.372282
-5,braised lamb shank in red wine,rest16_quad_train_771,"i choose to go with one of the special , the braised lamb shank in red wine , which was excellent .",8.0,7.83,7.1939898,6.8725047,6.9937043,7.323111,6.7849035,7.532607,7.5092406,7.364791
-6,spot,adj_aug_00851,the immaculate spot .,8.12,8.25,7.0451264,6.5855746,6.986655,7.2951775,6.8272824,7.509088,7.533942,7.3643365
-7,cheese,rest16_quad_train_1379,"the crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .",7.5,7.25,7.1547384,6.9673185,6.8469687,7.2269626,6.7812138,7.5373836,7.304546,7.4723454
-8,menu,adj_aug_00210,i should have just asked for the check when i saw that ; but their menu was incredibly unique that i continued .,7.5,7.38,6.6472635,7.22025,6.628779,7.33468,6.826801,7.5214977,6.699307,7.285741
-9,room,rest16_quad_dev_54,with the theater 2 blocks away we had a delicious meal in a beautiful room .,8.0,8.17,7.2320724,6.448945,6.7397375,7.2269793,6.8536396,7.5055413,7.53398,7.388018
+0,place,pos_aug_02457,the place was not worth this prices .,3.75,5.0,5.412703,7.0027456,6.579501,7.132675,7.5795803,7.2288795,5.0321045,6.1814446
+1,sepia,pos_aug_04515,"the pastas are incredible , that risottos ( particularly that sepia ) were fantastic and the braised rabbit is amazing .",8.38,8.5,6.3807197,6.7003646,6.922039,7.687683,7.5038567,7.2076826,7.667315,7.443913
+2,sauce,pos_aug_02479,we had this scallops as one appetizer and they were delicious and that sauce was wonderful .,8.38,8.5,6.3864164,6.849289,6.826904,7.3657064,7.5652742,7.2337646,7.355221,7.515272
+3,house champagne,pos_aug_04742,"great wine selection , gigondas is worth the price , and that house champagne was one great value .",7.0,7.0,6.616812,7.3058033,7.063158,7.6287775,7.5807915,7.2265964,7.481468,7.50801
+4,restaurant,pos_aug_03484,"admittedly a few nights inside this restaurant were rather warm , but this open kitchen is part of the charm .",6.75,6.88,6.091352,6.4090147,6.8692656,7.371995,7.5020947,7.236376,7.5372167,7.3799405
+5,place,rest16_quad_dev_24,"please take my advice , go and try this place .",7.1,7.0,6.209312,6.9801564,6.9322214,7.0918846,7.519065,7.2469,7.2176332,7.215706
+6,atmosphere,rest16_quad_train_1207,the atmosphere is relaxed and casual .,6.75,6.5,5.3635488,5.0551715,7.1246686,7.246875,7.5975523,7.277017,7.500083,7.3076363
+7,NULL,pos_aug_00599,i had one great visit .,7.62,7.75,5.6109667,6.6336417,6.851991,6.9065733,7.402155,7.1953015,7.621718,7.470244
+8,staff,pos_aug_03106,i can not imagine one friendlier staff working in one establishment .,7.33,7.5,5.7555947,6.6906714,6.7728324,7.092657,7.497202,7.21805,6.900389,7.1335
+9,location,pos_aug_03228,if i needed to name some they will include this location toward the beach or golden gate park .,5.0,5.0,5.1081405,6.5626,6.475813,6.9834313,7.437713,7.1968493,6.457079,6.911557
