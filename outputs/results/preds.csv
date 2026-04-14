@@ -1,11 +1,11 @@
 ,Aspect,ID,Text,Valence,Arousal,baby_bert_valence,baby_bert_arousal,bert_base_valence,bert_base_arousal,deberta_base_valence,deberta_base_arousal,roberta_base_valence,roberta_base_arousal
-0,place,pos_aug_02457,the place was not worth this prices .,3.75,5.0,5.412703,7.0027456,6.579501,7.132675,7.5795803,7.2288795,5.0321045,6.1814446
-1,sepia,pos_aug_04515,"the pastas are incredible , that risottos ( particularly that sepia ) were fantastic and the braised rabbit is amazing .",8.38,8.5,6.3807197,6.7003646,6.922039,7.687683,7.5038567,7.2076826,7.667315,7.443913
-2,sauce,pos_aug_02479,we had this scallops as one appetizer and they were delicious and that sauce was wonderful .,8.38,8.5,6.3864164,6.849289,6.826904,7.3657064,7.5652742,7.2337646,7.355221,7.515272
-3,house champagne,pos_aug_04742,"great wine selection , gigondas is worth the price , and that house champagne was one great value .",7.0,7.0,6.616812,7.3058033,7.063158,7.6287775,7.5807915,7.2265964,7.481468,7.50801
-4,restaurant,pos_aug_03484,"admittedly a few nights inside this restaurant were rather warm , but this open kitchen is part of the charm .",6.75,6.88,6.091352,6.4090147,6.8692656,7.371995,7.5020947,7.236376,7.5372167,7.3799405
-5,place,rest16_quad_dev_24,"please take my advice , go and try this place .",7.1,7.0,6.209312,6.9801564,6.9322214,7.0918846,7.519065,7.2469,7.2176332,7.215706
-6,atmosphere,rest16_quad_train_1207,the atmosphere is relaxed and casual .,6.75,6.5,5.3635488,5.0551715,7.1246686,7.246875,7.5975523,7.277017,7.500083,7.3076363
-7,NULL,pos_aug_00599,i had one great visit .,7.62,7.75,5.6109667,6.6336417,6.851991,6.9065733,7.402155,7.1953015,7.621718,7.470244
-8,staff,pos_aug_03106,i can not imagine one friendlier staff working in one establishment .,7.33,7.5,5.7555947,6.6906714,6.7728324,7.092657,7.497202,7.21805,6.900389,7.1335
-9,location,pos_aug_03228,if i needed to name some they will include this location toward the beach or golden gate park .,5.0,5.0,5.1081405,6.5626,6.475813,6.9834313,7.437713,7.1968493,6.457079,6.911557
+0,menu,rest16_quad_train_633,the menu has so many fish items and oysters .,6.17,5.67,6.4181333,6.512051,7.443498,7.573719,6.7589707,7.029376,5.533622,5.86396
+1,nigiri,backtrans_aug_01183,"melt in your mouth nigiri and sashmi, and very tasty rolls too.",6.0,5.67,7.421655,7.1993256,7.5122404,7.5846643,6.870586,7.090893,5.547971,5.893616
+2,french food,rest16_quad_train_139,"it may be a bit packed on weekends , but the vibe is good and it is the best french food you will find in the area .",7.5,7.62,7.482738,7.173343,7.4061966,7.6688104,6.6711774,6.9956264,5.286129,5.552604
+3,waitstaff,backtrans_aug_03753,"from spectacular caviar to hospital waiting staff, I felt like a royalty and enjoyed it every second.",7.88,8.0,7.3949304,7.231981,7.270758,7.7240553,6.5860214,6.7124367,5.2743745,5.5400653
+4,waiter,backtrans_aug_04985,We were sitting outside and the waiter spilled red wine and hot tea on me and my date.,3.17,6.5,5.535295,5.900584,6.716791,7.2871737,6.560106,6.7181444,5.120563,5.369317
+5,waiter,backtrans_aug_03548,We were immediately greeted by the waiter who was very nice and cordial.,7.5,7.5,7.0272202,7.096242,6.789866,7.779267,6.6437526,6.9033036,5.42006,5.831647
+6,back garden area,backtrans_aug_02553,in the summer months the rear garden area is really nice.,7.12,7.25,7.365691,7.2091246,7.401244,7.6380486,6.9456077,7.3112993,5.257971,5.540571
+7,NULL,rest16_quad_train_473,wont come back again for sure !,2.12,6.62,6.352363,6.422051,7.20739,7.3215775,6.7555637,6.9383984,5.787033,5.853009
+8,meal,backtrans_aug_03944,"the meat is fresh, the sauces are excellent, you get kimchi and a free salad with your meal and the service is good too.",5.25,5.0,7.4063735,7.2877455,7.5279865,7.5879927,6.7699656,7.034941,5.483423,5.791852
+9,portion sizes,backtrans_aug_01291,"The portion sizes here are huge, and the sushi is good.",7.88,7.88,7.4000354,7.291598,7.5133066,7.572569,6.8310847,7.197764,5.6477013,5.8971777
