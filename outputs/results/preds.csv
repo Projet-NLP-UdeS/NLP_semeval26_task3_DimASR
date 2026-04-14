@@ -1,11 +1,11 @@
-,Aspect,ID,Text,Valence,Arousal,baby_bert_rapid_tests_valence,baby_bert_rapid_tests_arousal
-0,italian restaurant,adj_aug_01772,i am so happy to have a fantastic italian restaurant in my neighborhood .,7.75,7.88,5.663254,5.712569
-1,salad,adj_aug_04091,by far the foremost salad i have had in a fast food restaurant .,7.8,7.9,5.768709,6.0136423
-2,food,adj_aug_04331,"the food is spectacular , and the waiting staff has been perfect every single time we ' ve been there .",7.75,7.62,5.6750116,6.0850973
-3,service,adj_aug_02508,an superb service,7.88,7.75,5.4682217,5.2458286
-4,place,adj_aug_04377,this place is remarkably much fun .,7.62,7.62,5.592453,5.595781
-5,NULL,adj_aug_01682,never too crowded and always superb service .,7.38,7.88,5.8162394,5.7873573
-6,restaurant,adj_aug_03680,"on a recent sunday afternoon , a friend and i accidently found this superb restaurant on our way to see the pulitzer prize winning play doubt .",6.62,6.62,5.7013164,6.137864
-7,sushi,adj_aug_00478,"worthwhile sushi , high price",7.33,7.17,5.8392572,5.999589
-8,jazz duo,rest16_quad_train_951,"whoever the jazz duo was , they were on point .",7.0,7.0,4.953142,5.9607353
-9,NULL,adj_aug_04096,"creative , consistent , wholesome .",8.12,8.25,5.508711,5.7019014
+,Aspect,ID,Text,Valence,Arousal,baby_bert_valence,baby_bert_arousal,bert_base_valence,bert_base_arousal,deberta_base_valence,deberta_base_arousal,roberta_base_valence,roberta_base_arousal
+0,casimir,adj_aug_01111,i have been to casimir over 5 times and i have always had a superb time there .,7.83,7.83,7.206385,6.8645926,6.992061,7.3112674,6.890962,7.595998,7.590445,7.4153666
+1,pastis,adj_aug_00069,and evaluated on those terms pastis is simply enchanting .,8.0,7.88,6.420051,7.115624,6.8551497,7.4442425,6.7964725,7.556117,7.408508,7.2657027
+2,staff,rest16_quad_train_87,"my wife and i always enjoy the young , not always well trained but nevertheless friendly , staff , all of whom have a story .",7.62,7.75,7.210937,6.474384,6.712831,7.3473506,6.8364477,7.531034,7.3025036,7.3838253
+3,food,adj_aug_01839,superb food and the prices are very reasonable .,7.33,7.5,7.2403035,6.8711987,6.7785983,7.3968825,6.821559,7.5290213,7.5712266,7.454314
+4,egg white omelet,adj_aug_03721,"brunch at murphy ' s is to die for , my specialty . . . egg white omelet , the food is reliably freshly prepared .",7.83,8.0,6.5642295,7.2005935,6.874641,7.373696,6.8078423,7.536478,7.4682865,7.372282
+5,braised lamb shank in red wine,rest16_quad_train_771,"i choose to go with one of the special , the braised lamb shank in red wine , which was excellent .",8.0,7.83,7.1939898,6.8725047,6.9937043,7.323111,6.7849035,7.532607,7.5092406,7.364791
+6,spot,adj_aug_00851,the immaculate spot .,8.12,8.25,7.0451264,6.5855746,6.986655,7.2951775,6.8272824,7.509088,7.533942,7.3643365
+7,cheese,rest16_quad_train_1379,"the crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .",7.5,7.25,7.1547384,6.9673185,6.8469687,7.2269626,6.7812138,7.5373836,7.304546,7.4723454
+8,menu,adj_aug_00210,i should have just asked for the check when i saw that ; but their menu was incredibly unique that i continued .,7.5,7.38,6.6472635,7.22025,6.628779,7.33468,6.826801,7.5214977,6.699307,7.285741
+9,room,rest16_quad_dev_54,with the theater 2 blocks away we had a delicious meal in a beautiful room .,8.0,8.17,7.2320724,6.448945,6.7397375,7.2269793,6.8536396,7.5055413,7.53398,7.388018
